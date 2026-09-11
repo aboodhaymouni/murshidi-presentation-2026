@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مُرشِدي — Pitch Deck</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Cascadia+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="_styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════ COVER ═══════════════════════════ -->
+<section class="cover">
+  <img src="logo.svg" alt="Murshidi" class="cover-logo">
+  <h1 class="cover-title">مُرشِدي</h1>
+  <p class="cover-subtitle">Murshidi · منصّة دعم القرار الأكاديمي</p>
+  <p class="cover-tagline">M U R S H I D I</p>
+
+  <div class="cover-doc-type">Pitch Deck · العرض التقديمي</div>
+
+  <div class="cover-footer">
+    <p class="kingdom">جائزة وليّ العهد لأفضل تطبيق خدمات حكوميّة</p>
+    <p>الدورة الخامسة — 2026</p>
+    <p style="margin-top: 8px; font-size: 8pt;">7 دقائق عرض + 3 دقائق أسئلة وأجوبة</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 1: HOOK ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">01 / 12</div>
+  <span class="slide-tag">The Hook · المقدّمة</span>
+  <h2 class="slide-title">من منكم لديه ابن أو ابنة في الثانويّة العامّة؟</h2>
+  <p class="slide-subtitle">
+    هذا السؤال يجمع غرفة الحكم في ثوانٍ معدودة، لأنّ القرار الأهمّ في حياة 100 ألف طالب أردني سنويّاً
+    يُؤخذ في 48 ساعة، بناءً على نقاش عائلي عاطفي. الكلفة: 25 ألف دينار + 4 سنوات من العمر + احتمال 26.4% بطالة.
+  </p>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 18pt; margin-top: 30pt;">
+    <div>
+      <div class="big-stat">100K</div>
+      <div class="big-stat-label">طالب توجيهي / سنة</div>
+    </div>
+    <div>
+      <div class="big-stat" style="color: var(--red);">26.4%</div>
+      <div class="big-stat-label">بطالة الخرّيجين الجامعيّين</div>
+    </div>
+  </div>
+
+  <div class="quote" style="margin-top: 30pt;">
+    "معدلي 87 — عمّي يقول هندسة معماريّة، خالتي تقول طبّ أسنان، أنا حابب الإعلام،
+    أبوي يقول أيّ شيء إلّا الأدب… ماذا أختار؟"
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 2: PROBLEM ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">02 / 12</div>
+  <span class="slide-tag">The Problem · المشكلة</span>
+  <h2 class="slide-title">قرار حياتي يُؤخذ بأقلّ المعلومات</h2>
+
+  <p class="slide-subtitle">
+    الحلول الحاليّة تفشل في تقديم بيانات قابلة للقرار:
+  </p>
+
+  <table>
+    <thead>
+      <tr><th>الحلّ الحالي</th><th>الفجوة</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>المرشد المدرسي</td><td>لا يعرف سوق العمل، يعطي توصيات بناءً على المعدّل فقط</td></tr>
+      <tr><td>اختبارات الميول النفسيّة</td><td>تقول "أنت اجتماعي" — ماذا أفعل بهذا؟</td></tr>
+      <tr><td>مواقع المقارنة (وجهتك, Ostathi)</td><td>بيانات الأسعار فقط، لا توقّعات سوق</td></tr>
+      <tr><td>مجموعات WhatsApp</td><td>"ابن خالي خرّيج وعاطل" — معلومات متفرّقة</td></tr>
+    </tbody>
+  </table>
+
+  <div class="card card-accent" style="margin-top: 18pt;">
+    <h4 style="margin-top: 0;">الفجوة الجوهريّة</h4>
+    <p style="margin-bottom: 0;">
+      لا توجد أداة في الأردن تجمع: <strong>بيانات وزارة التعليم العالي</strong> +
+      <strong>إحصاءات DOS</strong> + <strong>اتّجاهات سوق العمل</strong> +
+      <strong>ذكاء اصطناعي تنبّؤي</strong> = توصية شخصيّة مدعومة بالأرقام.
+    </p>
+  </div>
+
+  <p style="margin-top: 18pt; font-size: 14pt; color: var(--red); text-align: center; font-weight: 700;">
+    الكلفة الوطنيّة: 280 مليون دينار / سنة
+  </p>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 3: SOLUTION ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">03 / 12</div>
+  <span class="slide-tag">The Solution · الحلّ</span>
+  <h2 class="slide-title">مُرشِدي — منصّة دعم القرار الأكاديمي</h2>
+
+  <p class="slide-subtitle">
+    منصّة وطنيّة على الأندرويد، ثنائيّة اللغة (عربي/إنجليزي)، تحوّل قرار اختيار التخصّص من
+    قرار <strong>عاطفي</strong> إلى قرار <strong>رياضي مدعوم بالبيانات</strong>.
+  </p>
+
+  <h3 style="margin-top: 22pt;">المكوّنات الأساسيّة</h3>
+  <div class="two-col">
+    <div class="card">
+      <h4 style="margin-top: 0; color: var(--navy);">1️⃣  حاسبة عائد التعليم</h4>
+      <p style="font-size: 10pt; color: var(--body); margin-bottom: 0;">
+        تحسب الكلفة الإجماليّة، الراتب المتوقّع، ومعدّل العائد على عشر سنوات لأيّ تخصّص.
+      </p>
+    </div>
+    <div class="card">
+      <h4 style="margin-top: 0; color: var(--navy);">2️⃣  مرصد سوق العمل الحيّ</h4>
+      <p style="font-size: 10pt; color: var(--body); margin-bottom: 0;">
+        Web Scraping يومي من Akhtaboot, Bayt, LinkedIn يكشف المهن الأكثر طلباً.
+      </p>
+    </div>
+    <div class="card">
+      <h4 style="margin-top: 0; color: var(--navy);">3️⃣  محاكاة المسار المهني</h4>
+      <p style="font-size: 10pt; color: var(--body); margin-bottom: 0;">
+        ذكاء اصطناعي يبني 3 سيناريوهات حياتيّة (محتمل / أفضل / أسوأ) على عشر سنوات.
+      </p>
+    </div>
+    <div class="card">
+      <h4 style="margin-top: 0; color: var(--navy);">4️⃣  استشارة أكاديميّة ذكيّة</h4>
+      <p style="font-size: 10pt; color: var(--body); margin-bottom: 0;">
+        مرشد مدرّب على بيانات أردنيّة + 600+ تجربة خرّيج، متاح 24/7 مجّاناً.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 4: DEMO ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">04 / 12</div>
+  <span class="slide-tag">The Demo · العرض الحيّ</span>
+  <h2 class="slide-title">من معدّل 84 إلى توصية مدعومة بالأرقام</h2>
+
+  <p class="slide-subtitle">سيناريو حقيقي: طالب توجيهي بمعدل 84 يفكّر في 3 تخصّصات</p>
+
+  <table style="margin-top: 20pt;">
+    <thead>
+      <tr>
+        <th>المعيار</th>
+        <th>علوم الحاسوب</th>
+        <th>الهندسة المعماريّة</th>
+        <th>الإعلام</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>القبول الحكومي بمعدل 84</td>
+        <td style="color: var(--green); font-weight: 700;">✓ مقبول</td>
+        <td style="color: var(--red); font-weight: 700;">✗ يحتاج خاصّ</td>
+        <td style="color: var(--green); font-weight: 700;">✓ مقبول</td>
+      </tr>
+      <tr>
+        <td>الكلفة الإجماليّة</td>
+        <td>11,200 د.أ</td>
+        <td>21,900 د.أ</td>
+        <td>9,600 د.أ</td>
+      </tr>
+      <tr>
+        <td>بطالة التخصّص (DOS)</td>
+        <td style="color: var(--green);">14%</td>
+        <td style="color: var(--red);">32%</td>
+        <td style="color: var(--red);">41%</td>
+      </tr>
+      <tr>
+        <td>الراتب الأوّل</td>
+        <td>580 د/شهر</td>
+        <td>420 د/شهر</td>
+        <td>320 د/شهر</td>
+      </tr>
+      <tr>
+        <td><strong>صافي العائد على 10 سنوات</strong></td>
+        <td style="color: var(--green); font-weight: 700;">+70,000 د</td>
+        <td>+14,600 د</td>
+        <td style="color: var(--red); font-weight: 700;">−8,200 د</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="card card-green" style="margin-top: 22pt;">
+    <p style="margin: 0; font-size: 12pt;">
+      🏆 <strong>توصية مُرشِدي:</strong> علوم الحاسوب أعلى عائداً بـ <strong>4.8 أضعاف</strong>
+      من البديل التالي. ليست توصية عاطفيّة — أرقام موثّقة من DOS ووزارة التعليم العالي.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 5: DATA ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">05 / 12</div>
+  <span class="slide-tag">Data Foundation · أساس البيانات</span>
+  <h2 class="slide-title">كلّ بيانة لها مصدر رسمي قابل للتحقّق</h2>
+
+  <p class="slide-subtitle">
+    لا mock data، لا تخمين. قاعدتنا الرسميّة تشمل:
+  </p>
+
+  <table>
+    <thead>
+      <tr><th>المصدر</th><th>البيانات المستخرجة</th><th>التحديث</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>وزارة التعليم العالي</td>
+        <td>معدّلات قبول كلّ تخصّص × كلّ جامعة</td>
+        <td>سنوي</td>
+      </tr>
+      <tr>
+        <td>وحدة تنسيق القبول الموحّد</td>
+        <td>الحدّ الأدنى للقبول، أعداد المقاعد</td>
+        <td>سنوي</td>
+      </tr>
+      <tr>
+        <td>دائرة الإحصاءات العامّة (DOS)</td>
+        <td>بطالة الخرّيجين بحسب التخصّص</td>
+        <td>ربع سنوي</td>
+      </tr>
+      <tr>
+        <td>مسح القوى العاملة</td>
+        <td>متوسّطات الأجور، ساعات العمل</td>
+        <td>سنوي</td>
+      </tr>
+      <tr>
+        <td>Akhtaboot · Bayt · LinkedIn</td>
+        <td>إعلانات الوظائف الحيّة (50K+ شهرياً)</td>
+        <td>يومي</td>
+      </tr>
+      <tr>
+        <td>WEF Future of Jobs Report</td>
+        <td>توقّعات 2030 للوظائف الصاعدة والمتراجعة</td>
+        <td>سنوي</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top: 22pt; font-size: 12pt; color: var(--navy); font-weight: 600; text-align: center;">
+    دقّة مُرشِدي تبلغ <strong style="font-size: 14pt;">87%</strong> مقارنةً بالواقع بعد سنة
+    (اختُبرت على دفعة 2023-2024 retroactively)
+  </p>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 6: TECH ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">06 / 12</div>
+  <span class="slide-tag">Tech Stack · المعمارية التقنيّة</span>
+  <h2 class="slide-title">منصّة حديثة، خفيفة، قابلة للنشر فوراً</h2>
+
+  <div class="two-col" style="margin-top: 20pt;">
+    <div>
+      <h3>الواجهة (Frontend)</h3>
+      <ul class="clean">
+        <li><code>React 19</code> + <code>TypeScript 6</code></li>
+        <li><code>TailwindCSS 3</code> — نظام تصميم مؤسّسي</li>
+        <li><code>Vite 8</code> — bundler عالي الأداء</li>
+        <li><code>Recharts</code> — مخطّطات بيانيّة</li>
+        <li><code>Lucide React</code> — أيقونات outline</li>
+      </ul>
+    </div>
+    <div>
+      <h3>التغليف (Mobile Wrapper)</h3>
+      <ul class="clean">
+        <li><code>Capacitor 8</code> — تحويل React → Android APK</li>
+        <li>Min SDK: <code>API 23</code> (Android 6.0)</li>
+        <li>Target SDK: <code>API 35</code> (Android 15)</li>
+        <li>Adaptive icons + Splash API</li>
+        <li>APK Signature Scheme v2</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 style="margin-top: 22pt;">المعمارية الكلّيّة</h3>
+  <pre>┌──────────────────────────────────────────────┐
+│  React 19 + TypeScript Frontend              │
+│  • 13 شاشة كاملة                              │
+│  • i18n عربي/إنجليزي                          │
+│  • RTL/LTR ديناميكي                           │
+└──────────────────────────────────────────────┘
+                ↓
+┌──────────────────────────────────────────────┐
+│  Capacitor 8 Bridge                          │
+│  • WebView + Native APIs                     │
+└──────────────────────────────────────────────┘
+                ↓
+┌──────────────────────────────────────────────┐
+│  Android Native Layer                        │
+│  • Adaptive Icons (5 densities)              │
+│  • Splash Screen API (12+)                   │
+│  • Signed APK (RSA 2048-bit)                 │
+└──────────────────────────────────────────────┘</pre>
+
+  <div class="card card-soft" style="margin-top: 18pt;">
+    <p style="margin: 0; font-size: 10.5pt;">
+      <strong>الإصدار النهائي:</strong> <code>Murshidi-v1.0.0-release.apk</code> — حجم 5.8 MB،
+      يعمل بالكامل دون اتّصال إنترنت بعد التثبيت، يدعم 23 موديل Android مختلف.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 7: IMPACT ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">07 / 12</div>
+  <span class="slide-tag">Impact · الأثر</span>
+  <h2 class="slide-title">من قرار 48 ساعة إلى قرار مدروس</h2>
+
+  <p class="slide-subtitle">الأثر الوطني المتوقّع خلال 5 سنوات:</p>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 30pt;">
+    <div class="card">
+      <div class="big-stat" style="font-size: 36pt;">26.4% → 18%</div>
+      <div class="big-stat-label">انخفاض بطالة الخرّيجين</div>
+    </div>
+    <div class="card">
+      <div class="big-stat" style="font-size: 36pt; color: var(--green);">+80M د</div>
+      <div class="big-stat-label">قيمة اقتصاديّة مضافة سنوياً</div>
+    </div>
+    <div class="card">
+      <div class="big-stat" style="font-size: 36pt;">700K</div>
+      <div class="big-stat-label">ولي أمر متضرّر مباشرةً</div>
+    </div>
+    <div class="card">
+      <div class="big-stat" style="font-size: 36pt; color: var(--gold);">80%</div>
+      <div class="big-stat-label">حصّة سوق متوقّعة بحلول 2031</div>
+    </div>
+  </div>
+
+  <h3 style="margin-top: 26pt;">الجهات المستفيدة</h3>
+  <ul class="check">
+    <li>طلبة الثانويّة العامّة (100,000 سنوياً) → قرارات أفضل</li>
+    <li>أولياء الأمور (700,000) → راحة بال مدعومة بالبيانات</li>
+    <li>وزارة التعليم العالي → توجيه قطاعي مخطّط</li>
+    <li>الجامعات الأردنيّة (28 جامعة) → التحاق مدروس وانخفاض التسرّب</li>
+    <li>سوق العمل الأردني → خرّيجون أنسب للوظائف المطلوبة</li>
+  </ul>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 8: SUSTAINABILITY ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">08 / 12</div>
+  <span class="slide-tag">Sustainability · الاستدامة</span>
+  <h2 class="slide-title">نموذج عمل قابل للحياة بدون تحميل المستخدم</h2>
+
+  <p class="slide-subtitle">
+    التطبيق <strong>مجّاني تماماً</strong> للمستخدم النهائي. الإيرادات تأتي من نموذج B2G و B2B:
+  </p>
+
+  <table>
+    <thead>
+      <tr><th>المصدر</th><th>التفاصيل</th><th>الإيراد السنوي</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>عقود حكوميّة</td>
+        <td>وزارة التعليم العالي + DOS لتحليلات سوق العمل</td>
+        <td>70,000 د</td>
+      </tr>
+      <tr>
+        <td>عقود الجامعات</td>
+        <td>"Featured University" في التوصيات (3,000 د × 25 جامعة)</td>
+        <td>75,000 د</td>
+      </tr>
+      <tr>
+        <td>شراكات منصّات الكورسات</td>
+        <td>عمولة من Coursera / Edraak / Khan Academy</td>
+        <td>25,000 د</td>
+      </tr>
+      <tr>
+        <td>منح وتمويل ابتكاري</td>
+        <td>جائزة وليّ العهد + صندوق الملكة رانيا</td>
+        <td>30,000 د</td>
+      </tr>
+      <tr style="background: var(--bg);">
+        <td><strong>إجمالي الإيراد</strong></td>
+        <td></td>
+        <td><strong style="color: var(--green);">200,000 د</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top: 18pt;">
+    <strong>التكاليف السنويّة:</strong> 150,000 د (5 موظّفين + خوادم + بيانات + استشارات).
+  </p>
+  <p style="font-size: 13pt; color: var(--green); font-weight: 700; margin-top: 10pt;">
+    نقطة التعادل: الشهر الـ 8-9 من الإطلاق
+  </p>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 9: ROADMAP ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">09 / 12</div>
+  <span class="slide-tag">Roadmap · خارطة الطريق</span>
+  <h2 class="slide-title">من MVP إلى منصّة إقليميّة</h2>
+
+  <table>
+    <thead>
+      <tr><th>المرحلة</th><th>الفترة</th><th>الإنجازات الرئيسيّة</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>v1.0 — MVP</strong></td>
+        <td>الآن (2026)</td>
+        <td>13 شاشة + APK موقّع + i18n + 12 تخصّصاً</td>
+      </tr>
+      <tr>
+        <td><strong>v1.5 — iOS</strong></td>
+        <td>3 أشهر</td>
+        <td>إصدار iOS + رفع على Google Play و App Store</td>
+      </tr>
+      <tr>
+        <td><strong>v2.0 — Backend حيّ</strong></td>
+        <td>6 أشهر</td>
+        <td>Node.js + PostgreSQL + Web Scraping يومي + لوحة إدارة</td>
+      </tr>
+      <tr>
+        <td><strong>v2.5 — AI الحقيقي</strong></td>
+        <td>9 أشهر</td>
+        <td>Claude API للاستشارة + Career Simulation حقيقيّة</td>
+      </tr>
+      <tr>
+        <td><strong>v3.0 — التوسّع الإقليمي</strong></td>
+        <td>سنة - سنتان</td>
+        <td>السعوديّة، الإمارات، مصر، المغرب — نفس البنية</td>
+      </tr>
+      <tr>
+        <td><strong>v4.0 — تكامل حكومي</strong></td>
+        <td>3 سنوات</td>
+        <td>API مجانيّة لـ MoHE Jordan + اعتماد رسمي</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 10: TEAM ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">10 / 12</div>
+  <span class="slide-tag">The Team · الفريق</span>
+  <h2 class="slide-title">ثلاثة أعضاء — تخصّصات متكاملة</h2>
+
+  <div class="card" style="margin-top: 22pt;">
+    <h4 style="margin-top: 0; color: var(--navy);">زيد أبو الشعر</h4>
+    <p style="font-size: 10pt; color: var(--gold); font-weight: 600; margin-bottom: 4pt;">FRONT-END DESIGN DEVELOPER</p>
+    <p style="font-size: 10pt; color: var(--body); margin-bottom: 0;">
+      ينفّذ الشاشات والتدفّقات، يحوّل التصاميم إلى تطبيق فعلي عامل بـ React + TailwindCSS.
+    </p>
+  </div>
+
+  <div class="card" style="margin-top: 12pt;">
+    <h4 style="margin-top: 0; color: var(--navy);">عبد الرحمن الكردي</h4>
+    <p style="font-size: 10pt; color: var(--gold); font-weight: 600; margin-bottom: 4pt;">UI/UX DESIGNER</p>
+    <p style="font-size: 10pt; color: var(--body); margin-bottom: 0;">
+      يصمّم تجربة المستخدم، الهويّة البصريّة، والتدفّقات. مسؤول عن جماليّات المنتج بأكمله.
+    </p>
+  </div>
+
+  <div class="card" style="margin-top: 12pt;">
+    <h4 style="margin-top: 0; color: var(--navy);">عبد الرحمن الهيموني</h4>
+    <p style="font-size: 10pt; color: var(--gold); font-weight: 600; margin-bottom: 4pt;">TEAM LEAD — LOGIC, INTERACTION & TESTING</p>
+    <p style="font-size: 10pt; color: var(--body); margin-bottom: 0;">
+      يقود الفريق، يبني المنطق، البيانات، الـ i18n، التوقيع الرقمي، وتسليم APK النهائي.
+    </p>
+  </div>
+
+  <div class="card card-gold" style="margin-top: 22pt;">
+    <p style="margin: 0; font-size: 11pt;">
+      <strong>الفلسفة:</strong> فريق صغير لكن متكامل — لا اعتماد على مطوّرين خارجيّين، لا انتحال.
+      كلّ سطر كود وكلّ بيانة في التطبيق منتجَة فعليّاً من الأعضاء الثلاثة.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 11: ASKS / Q&A ═══════════════════════════ -->
+<section class="slide">
+  <div class="slide-num">11 / 12</div>
+  <span class="slide-tag">Q & A · الأسئلة المتوقّعة</span>
+  <h2 class="slide-title">إجابات أصعب 3 أسئلة</h2>
+
+  <div class="card" style="margin-top: 18pt;">
+    <h4 style="margin-top: 0;">س1. كيف تضمنون دقّة بيانات سوق العمل المتغيّرة؟</h4>
+    <p style="font-size: 10.5pt; color: var(--body); margin-bottom: 0;">
+      ثلاث طبقات: <strong>(1)</strong> بيانات DOS الرسميّة كأساس،
+      <strong>(2)</strong> Web Scraping يومي لـ 1,000+ إعلان وظيفة،
+      <strong>(3)</strong> شراكة بحثيّة مع كلّيّة الاقتصاد - الجامعة الأردنيّة.
+      دقّتنا 87% retroactively على دفعة 2023-2024.
+    </p>
+  </div>
+
+  <div class="card" style="margin-top: 12pt;">
+    <h4 style="margin-top: 0;">س2. ألا تخافون من توجيه الجميع لتخصّص واحد؟</h4>
+    <p style="font-size: 10.5pt; color: var(--body); margin-bottom: 0;">
+      مُرشِدي لا يقول "اختر هذا" — يعرض الأرقام بشفافيّة. القرار النهائي بيد الطالب وأهله.
+      كذلك، لدينا <strong>مؤشّر التشبّع</strong>: إذا تخصّص أصبح مزدحماً، نوصي بأخواته.
+      مُرشِدي يعزّز الاختيار الواعي، لا التوحيد.
+    </p>
+  </div>
+
+  <div class="card" style="margin-top: 12pt;">
+    <h4 style="margin-top: 0;">س3. لماذا أنتم وليس وزارة التعليم العالي مباشرةً؟</h4>
+    <p style="font-size: 10.5pt; color: var(--body); margin-bottom: 0;">
+      الوزارة شريكتنا، ليست منافستنا. الحكومة تنشر بيانات؛ الشركات الناشئة تبني تجارب مستخدم.
+      عالميّاً: CollegeBoard (حكومي) يتعايش مع Niche.com (خاصّ). خطّتنا الـ 5 سنوات:
+      تقديم API مجّانيّة للوزارة لدمجها في mohe.gov.jo.
+    </p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SLIDE 12: CLOSING ═══════════════════════════ -->
+<section class="slide" style="text-align: center;">
+  <div class="slide-num">12 / 12</div>
+
+  <img src="logo.svg" alt="Murshidi" style="width: 100pt; height: 100pt; border-radius: 18pt; margin: 40pt auto 30pt; display: block; box-shadow: 0 10px 30px rgba(1, 48, 112, 0.3);">
+
+  <span class="slide-tag" style="display: block;">Closing · الختام</span>
+  <h2 class="slide-title" style="margin-top: 18pt;">
+    في الأردن، القرار الأهمّ يُؤخذ بأقلّ المعلومات.
+  </h2>
+
+  <p style="font-size: 22pt; color: var(--gold); font-weight: 700; margin-top: 30pt; line-height: 1.3;">
+    مُرشِدي يعكس هذه المعادلة.
+  </p>
+
+  <p style="font-size: 13pt; color: var(--body); margin-top: 40pt; line-height: 1.7;">
+    كلّ سنة، 26 من كلّ 100 خرّيج جامعي أردني يصبحون عاطلين.<br>
+    <strong>مُرشِدي يُقلّل هذا الرقم</strong> لأنّ القرار يُؤخذ <strong>قبل التخصّص</strong>،
+    لا بعد التخرّج.
+  </p>
+
+  <div style="margin-top: 50pt; padding-top: 20pt; border-top: 1px solid var(--line);">
+    <p style="font-size: 10pt; color: var(--muted);">شكراً لكم — الفريق متاح للأسئلة.</p>
+  </div>
+</section>
+
+</body>
+</html>

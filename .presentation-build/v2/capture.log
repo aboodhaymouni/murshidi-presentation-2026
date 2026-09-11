@@ -1,0 +1,16 @@
+apiRequestContext.get: read ECONNRESET
+Call log:
+[2m  - → GET http://127.0.0.1:5182/api/public-data[22m
+[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0[22m
+[2m    - accept: */*[22m
+[2m    - accept-encoding: gzip,deflate,br[22m
+
+    at C:\xampp\htdocs\مسابقة ولي العهد لأفضل تطبيق خدمات حكومية 4\تسليم_مرشدي\.presentation-build\v2\capture.cjs:7:35 {
+  log: [
+    '  - → GET http://127.0.0.1:5182/api/public-data',
+    '    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0',
+    '    - accept: */*',
+    '    - accept-encoding: gzip,deflate,br'
+  ],
+  name: 'Error'
+}

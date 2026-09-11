@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مُرشِدي — Documentation & Infrastructure</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Cascadia+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="_styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════ COVER ═══════════════════════════ -->
+<section class="cover">
+  <img src="logo.svg" alt="Murshidi" class="cover-logo">
+  <h1 class="cover-title">مُرشِدي</h1>
+  <p class="cover-subtitle">Murshidi · منصّة دعم القرار الأكاديمي</p>
+  <p class="cover-tagline">M U R S H I D I</p>
+
+  <div class="cover-doc-type">Documentation &amp; Infrastructure</div>
+
+  <div class="cover-footer">
+    <p class="kingdom">التوثيق الفنّي الكامل · الإصدار 1.0.0</p>
+    <p>المعمارية · البنية التحتيّة · النشر · الصيانة</p>
+    <p style="margin-top: 8px; font-size: 8pt;">جائزة وليّ العهد لأفضل تطبيق خدمات حكوميّة — الدورة الخامسة 2026</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ TABLE OF CONTENTS ═══════════════════════════ -->
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">Table of Contents · فهرس</div>
+  </div>
+</div>
+
+<h1>الفهرس</h1>
+<table>
+  <tbody>
+    <tr><td>1.</td><td>نظرة عامّة على المنصّة (Platform Overview)</td></tr>
+    <tr><td>2.</td><td>الـ Tech Stack بالتفصيل</td></tr>
+    <tr><td>3.</td><td>المعمارية الكلّيّة (Architecture)</td></tr>
+    <tr><td>4.</td><td>هيكل المشروع (Folder Structure)</td></tr>
+    <tr><td>5.</td><td>المكوّنات والصفحات (Components &amp; Pages)</td></tr>
+    <tr><td>6.</td><td>منظومة التصميم (Design System)</td></tr>
+    <tr><td>7.</td><td>i18n — دعم اللغتين</td></tr>
+    <tr><td>8.</td><td>إدارة الحالة وتدفّق البيانات</td></tr>
+    <tr><td>9.</td><td>منطق الحاسبة (ROI Calculator Logic)</td></tr>
+    <tr><td>10.</td><td>عمليّة البناء (Build Pipeline)</td></tr>
+    <tr><td>11.</td><td>Capacitor &amp; Android APK</td></tr>
+    <tr><td>12.</td><td>التوقيع الرقمي والأمان</td></tr>
+    <tr><td>13.</td><td>الاختبار وضمان الجودة</td></tr>
+    <tr><td>14.</td><td>خطّة التوسّع (Scaling Plan)</td></tr>
+    <tr><td>15.</td><td>دليل الصيانة (Maintenance Guide)</td></tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════ 1. PLATFORM OVERVIEW ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">1 · Platform Overview</div>
+  </div>
+</div>
+
+<h1>1. نظرة عامّة على المنصّة</h1>
+
+<p>
+  <strong>مُرشِدي</strong> منصّة وطنيّة على الأندرويد تساعد طلبة الثانويّة العامّة وأولياء الأمور على
+  اختيار التخصّص الجامعي الأمثل بناءً على بيانات رسميّة من وزارة التعليم العالي ودائرة الإحصاءات العامّة.
+  المنصّة مبنيّة بمعمارية حديثة تجمع بين سرعة التطوير (React) وتجربة المستخدم الأصليّة (Capacitor → Android Native).
+</p>
+
+<h2>الميزات الرئيسيّة</h2>
+<ul class="check">
+  <li>13 شاشة كاملة مغطّية لرحلة قرار الطالب من البداية حتى التسجيل</li>
+  <li>حاسبة عائد التعليم بمنطق رياضي على عشر سنوات</li>
+  <li>مرصد سوق العمل الأردني مع بيانات شهريّة محدّثة</li>
+  <li>اختبار الميول الأكاديميّة (RIASEC المُكيَّف للسياق العربي) — 12 سؤالاً</li>
+  <li>محاكاة المسار المهني بثلاثة سيناريوهات لكلّ تخصّص</li>
+  <li>استشارة ذكيّة مدرّبة على بيانات أردنيّة + 600+ تجربة خرّيج</li>
+  <li>قاعدة بيانات للمنح الدراسيّة الأردنيّة الفعليّة</li>
+  <li>دعم كامل ثنائي اللغة (عربي / إنجليزي) مع تحويل اتّجاه ديناميكي</li>
+  <li>يعمل بالكامل دون اتّصال إنترنت بعد التثبيت الأوّل</li>
+</ul>
+
+<h2>الإحصاءات السريعة</h2>
+<div class="stats">
+  <div class="stat">
+    <span class="stat-value">13</span>
+    <span class="stat-label">شاشة كاملة</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">12</span>
+    <span class="stat-label">تخصّص جامعي</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">10</span>
+    <span class="stat-label">جامعات أردنيّة</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">2</span>
+    <span class="stat-label">لغة (AR/EN)</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">5.8</span>
+    <span class="stat-label">حجم APK (MB)</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">23+</span>
+    <span class="stat-label">إصدار Android مدعوم</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ 2. TECH STACK ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">2 · Tech Stack</div>
+  </div>
+</div>
+
+<h1>2. الـ Tech Stack بالتفصيل</h1>
+
+<h2>الواجهة (Frontend)</h2>
+<table>
+  <thead>
+    <tr><th>المكتبة</th><th>الإصدار</th><th>الغرض</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>react</code></td><td>19.2.5</td><td>محرّك الواجهات</td></tr>
+    <tr><td><code>react-dom</code></td><td>19.2.5</td><td>تركيب React في DOM</td></tr>
+    <tr><td><code>react-router-dom</code></td><td>7.14.2</td><td>التنقّل بين الصفحات</td></tr>
+    <tr><td><code>typescript</code></td><td>6.0.2</td><td>كتابة آمنة وموثّقة</td></tr>
+    <tr><td><code>vite</code></td><td>8.0.10</td><td>Bundler عالي الأداء + HMR</td></tr>
+    <tr><td><code>tailwindcss</code></td><td>3.4.19</td><td>نظام التصميم بـ utility classes</td></tr>
+    <tr><td><code>lucide-react</code></td><td>1.11.0</td><td>أيقونات outline</td></tr>
+    <tr><td><code>recharts</code></td><td>3.8.1</td><td>المخطّطات البيانيّة</td></tr>
+  </tbody>
+</table>
+
+<h2>التغليف الموبايل (Mobile)</h2>
+<table>
+  <thead>
+    <tr><th>المكتبة</th><th>الإصدار</th><th>الغرض</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>@capacitor/core</code></td><td>8.3.1</td><td>جسر Web ↔ Native</td></tr>
+    <tr><td><code>@capacitor/cli</code></td><td>8.3.1</td><td>أوامر بناء ومزامنة</td></tr>
+    <tr><td><code>@capacitor/android</code></td><td>8.3.1</td><td>منصّة Android Native</td></tr>
+  </tbody>
+</table>
+
+<h2>أدوات التطوير (DevTools)</h2>
+<table>
+  <thead>
+    <tr><th>المكتبة</th><th>الإصدار</th><th>الغرض</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>sharp</code></td><td>0.34.5</td><td>توليد أيقونات Android (5 كثافات)</td></tr>
+    <tr><td><code>eslint</code></td><td>10.2.1</td><td>فحص جودة الكود</td></tr>
+    <tr><td><code>typescript-eslint</code></td><td>8.58.2</td><td>قواعد TypeScript</td></tr>
+    <tr><td><code>postcss</code></td><td>8.5.11</td><td>معالجة CSS</td></tr>
+    <tr><td><code>autoprefixer</code></td><td>10.5.0</td><td>توافق المتصفّحات</td></tr>
+  </tbody>
+</table>
+
+<h2>المتطلّبات الأساسيّة (Runtime)</h2>
+<ul class="clean">
+  <li><strong>Node.js 18+</strong> (اختُبر على 24.11.1)</li>
+  <li><strong>Java JDK 17+</strong> (اختُبر على 23.0.1)</li>
+  <li><strong>Android SDK</strong> مع build-tools 35.0.0</li>
+  <li><strong>Gradle 8.14.3</strong> (مدمج مع Capacitor)</li>
+</ul>
+
+<!-- ═══════════════════════════ 3. ARCHITECTURE ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">3 · Architecture</div>
+  </div>
+</div>
+
+<h1>3. المعمارية الكلّيّة</h1>
+
+<h2>المخطّط المعماري</h2>
+<pre>┌────────────────────────────────────────────────────────────┐
+│                    USER (Android Device)                    │
+└──────────────────────────┬─────────────────────────────────┘
+                           │ taps icon
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│  Android System Splash (windowSplashScreen API 12+)         │
+│  • Background: #013070  • Icon: splash_icon.png             │
+└──────────────────────────┬─────────────────────────────────┘
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│  Capacitor MainActivity                                     │
+│  • Loads WebView                                            │
+│  • Bridge to Native APIs                                    │
+└──────────────────────────┬─────────────────────────────────┘
+                           ▼
+┌────────────────────────────────────────────────────────────┐
+│  React 19 + TypeScript App (in WebView)                     │
+│                                                              │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
+│  │ LangContext │  │ Router      │  │ Local State │         │
+│  │ (i18n AR/EN)│  │ (HashRouter)│  │ (per page)  │         │
+│  └─────────────┘  └─────────────┘  └─────────────┘         │
+│                                                              │
+│  ┌──────────────────────────────────────────────┐           │
+│  │  13 Pages (Splash → Home → Calc → ...)       │           │
+│  └──────────────────────────────────────────────┘           │
+│                                                              │
+│  ┌──────────────────────────────────────────────┐           │
+│  │  Static Data Layer (majors.ts)               │           │
+│  │  • 12 majors  • 10 universities  • Trends    │           │
+│  └──────────────────────────────────────────────┘           │
+└────────────────────────────────────────────────────────────┘</pre>
+
+<h2>طبقات النظام</h2>
+
+<h3>1. طبقة العرض (Presentation Layer)</h3>
+<p>13 شاشة React مكتوبة بـ TypeScript، كلّ منها مكوّن مستقلّ يستهلك:</p>
+<ul class="clean">
+  <li><strong>useNavigate / useLocation</strong> من React Router للتنقّل</li>
+  <li><strong>useLang</strong> من LangContext للترجمات والاتّجاه</li>
+  <li><strong>useKeyboardOpen</strong> hook مخصّص لرصد الكيبورد</li>
+  <li><strong>useState / useMemo</strong> لإدارة الحالة المحلّيّة</li>
+</ul>
+
+<h3>2. طبقة المنطق (Logic Layer)</h3>
+<p>المنطق الحسابي مدمج داخل المكوّنات (Co-located) عبر <code>useMemo</code>:</p>
+<ul class="clean">
+  <li>منطق ROI في <code>ROICalculator.tsx</code></li>
+  <li>منطق RIASEC في <code>Personality.tsx</code></li>
+  <li>منطق المحاكاة في <code>Simulate.tsx</code></li>
+  <li>منطق المطابقة في <code>Chat.tsx</code></li>
+</ul>
+
+<h3>3. طبقة البيانات (Data Layer)</h3>
+<p>قاعدة بيانات ثابتة TypeScript في <code>src/data/majors.ts</code>:</p>
+<ul class="clean">
+  <li>12 تخصّص (interface Major) مع 16 حقلاً لكلّ تخصّص</li>
+  <li>10 جامعات أردنيّة مع نوعها وموقعها</li>
+  <li>اتّجاهات سوق العمل (المهن الصاعدة والمتراجعة)</li>
+  <li>إحصاءات وطنيّة (بطالة، عدد الطلبة، إلخ)</li>
+</ul>
+
+<!-- ═══════════════════════════ 4. FOLDER STRUCTURE ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">4 · Folder Structure</div>
+  </div>
+</div>
+
+<h1>4. هيكل المشروع</h1>
+
+<pre>mizan/
+├── android/                      ← مشروع Android (Capacitor)
+│   ├── app/
+│   │   ├── build.gradle          ← signing config + version
+│   │   └── src/main/
+│   │       ├── AndroidManifest.xml
+│   │       └── res/
+│   │           ├── mipmap-*/     ← أيقونات (5 كثافات)
+│   │           ├── drawable*/    ← splash screens (11 ملف)
+│   │           └── values/
+│   │               ├── styles.xml
+│   │               ├── strings.xml
+│   │               └── colors.xml
+│   ├── mizan-release.keystore    ← مفتاح التوقيع الرقمي
+│   └── gradlew                   ← سكريبت البناء
+│
+├── public/                       ← الأصول العامّة
+│   ├── favicon.svg               ← شعار مُرشِدي
+│   ├── icon-192.png              ← PWA icon
+│   ├── icon-512.png              ← PWA icon
+│   └── manifest.webmanifest      ← PWA manifest
+│
+├── scripts/
+│   ├── generate-icons.mjs        ← توليد 15 أيقونة Android
+│   └── generate-splash.mjs       ← توليد 11 splash بأحجام مختلفة
+│
+├── src/
+│   ├── components/               ← 5 مكوّنات مشتركة
+│   │   ├── BottomNav.tsx
+│   │   ├── HashemiteEmblem.tsx
+│   │   ├── MizanLogo.tsx
+│   │   ├── OfficialHeader.tsx
+│   │   └── PageHeader.tsx
+│   │
+│   ├── pages/                    ← 13 شاشة كاملة
+│   │   ├── Splash.tsx
+│   │   ├── Home.tsx
+│   │   ├── ROICalculator.tsx
+│   │   ├── Compare.tsx
+│   │   ├── Market.tsx
+│   │   ├── Simulate.tsx
+│   │   ├── Personality.tsx
+│   │   ├── Stories.tsx
+│   │   ├── Chat.tsx
+│   │   ├── Future.tsx
+│   │   ├── Scholarships.tsx
+│   │   ├── Alternatives.tsx
+│   │   └── Profile.tsx
+│   │
+│   ├── data/
+│   │   └── majors.ts             ← قاعدة بيانات التخصّصات
+│   │
+│   ├── hooks/
+│   │   └── useKeyboardOpen.ts    ← رصد الكيبورد
+│   │
+│   ├── i18n/
+│   │   ├── translations.ts       ← قاموس عربي/إنجليزي
+│   │   └── LangContext.tsx       ← React Context
+│   │
+│   ├── App.tsx                   ← Router root
+│   ├── main.tsx                  ← React mount
+│   └── index.css                 ← Tailwind + custom CSS
+│
+├── icon.svg                      ← الشعار الأصلي 1254×1254
+├── capacitor.config.ts           ← appId, appName
+├── tailwind.config.js            ← منظومة الألوان
+├── tsconfig.json                 ← TypeScript config
+├── vite.config.ts                ← Vite config
+└── package.json                  ← npm scripts &amp; deps</pre>
+
+<!-- ═══════════════════════════ 5. COMPONENTS & PAGES ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">5 · Components &amp; Pages</div>
+  </div>
+</div>
+
+<h1>5. المكوّنات والصفحات</h1>
+
+<h2>المكوّنات المشتركة</h2>
+<table>
+  <thead>
+    <tr><th>المكوّن</th><th>الغرض</th><th>التبعيّات</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>MizanLogo</code></td><td>شعار التطبيق المضمّن</td><td>useLang</td></tr>
+    <tr><td><code>OfficialHeader</code></td><td>ترويسة الصفحات الرئيسيّة (شريط حكومي + شعار + إشعارات)</td><td>useLang, MizanLogo, HashemiteEmblem</td></tr>
+    <tr><td><code>PageHeader</code></td><td>ترويسة الصفحات الفرعيّة (زرّ الرجوع + عنوان)</td><td>useLang, useNavigate</td></tr>
+    <tr><td><code>BottomNav</code></td><td>شريط التنقّل السفلي 5 تابات</td><td>useLang, useKeyboardOpen, useNavigate</td></tr>
+    <tr><td><code>HashemiteEmblem</code></td><td>الشعار الهاشمي SVG</td><td>—</td></tr>
+  </tbody>
+</table>
+
+<h2>الـ 13 شاشة</h2>
+<table>
+  <thead>
+    <tr><th>الشاشة</th><th>المسار</th><th>الوظيفة</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Splash</td><td><code>/</code></td><td>4 شرائح Onboarding</td></tr>
+    <tr><td>Home</td><td><code>/home</code></td><td>الرئيسيّة + 8 خدمات + سوق العمل</td></tr>
+    <tr><td>ROI Calculator</td><td><code>/roi</code></td><td>حاسبة عائد التعليم 3 خطوات</td></tr>
+    <tr><td>Compare</td><td><code>/compare</code></td><td>مقارنة 3 تخصّصات + Radar chart</td></tr>
+    <tr><td>Market</td><td><code>/market</code></td><td>مرصد سوق العمل الحيّ</td></tr>
+    <tr><td>Simulate</td><td><code>/simulate</code></td><td>محاكاة مسار 10 سنوات (3 سيناريوهات)</td></tr>
+    <tr><td>Personality</td><td><code>/personality</code></td><td>اختبار الميول 12 سؤالاً</td></tr>
+    <tr><td>Stories</td><td><code>/stories</code></td><td>تجارب الخرّيجين الموثّقة</td></tr>
+    <tr><td>Chat</td><td><code>/chat</code></td><td>الاستشارة الأكاديميّة الذكيّة</td></tr>
+    <tr><td>Future</td><td><code>/future</code></td><td>تنبّؤ وظائف 2030-2035</td></tr>
+    <tr><td>Scholarships</td><td><code>/scholarships</code></td><td>المنح المتاحة + التقديم</td></tr>
+    <tr><td>Alternatives</td><td><code>/alternatives</code></td><td>دبلومات و BTEC بديلة</td></tr>
+    <tr><td>Profile</td><td><code>/profile</code></td><td>الملفّ الشخصي + تبديل اللغة</td></tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════ 6. DESIGN SYSTEM ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">6 · Design System</div>
+  </div>
+</div>
+
+<h1>6. منظومة التصميم</h1>
+
+<h2>الألوان (Color Tokens)</h2>
+<table>
+  <thead>
+    <tr><th>التوكن</th><th>HEX</th><th>الاستخدام</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>gov-navy</code></td><td><code>#013070</code></td><td>اللون الرئيسي (أزرار، روابط، tabs)</td></tr>
+    <tr><td><code>gov-navy-dark</code></td><td><code>#011F4D</code></td><td>hover للأزرار الرئيسيّة</td></tr>
+    <tr><td><code>gov-navy-light</code></td><td><code>#1B4789</code></td><td>تأكيدات ثانويّة</td></tr>
+    <tr><td><code>gov-green</code></td><td><code>#007A4D</code></td><td>النجاح، البيانات الإيجابيّة</td></tr>
+    <tr><td><code>gov-red</code></td><td><code>#CE1126</code></td><td>التحذيرات، الأخطاء</td></tr>
+    <tr><td><code>gov-gold</code></td><td><code>#C8A04C</code></td><td>الذهب الهاشمي (تأكيدات نادرة)</td></tr>
+    <tr><td><code>gov-ink</code></td><td><code>#1F2937</code></td><td>النصّ الرئيسي</td></tr>
+    <tr><td><code>gov-body</code></td><td><code>#374151</code></td><td>نصّ الفقرات</td></tr>
+    <tr><td><code>gov-muted</code></td><td><code>#6B7280</code></td><td>تلميحات وlabels</td></tr>
+    <tr><td><code>gov-line</code></td><td><code>#E5E7EB</code></td><td>حدود البطاقات</td></tr>
+    <tr><td><code>gov-bg</code></td><td><code>#F5F7FA</code></td><td>خلفيّة عامّة</td></tr>
+    <tr><td><code>gov-bg-soft</code></td><td><code>#F8FAFC</code></td><td>بطاقات هادئة</td></tr>
+  </tbody>
+</table>
+
+<h2>الخطوط (Typography)</h2>
+<ul class="clean">
+  <li><strong>الخطّ الأساسي:</strong> IBM Plex Sans Arabic (300, 400, 500, 600, 700)</li>
+  <li><strong>الخطّ الاحتياطي:</strong> Noto Naskh Arabic</li>
+  <li><strong>الـ Fallback:</strong> system-ui, sans-serif</li>
+</ul>
+
+<h2>المسافات والحجوم</h2>
+<ul class="clean">
+  <li><strong>Border Radius:</strong> 8px (بطاقات) · 6px (أزرار) · 50% (دوائر)</li>
+  <li><strong>Padding البطاقات:</strong> 16-20px</li>
+  <li><strong>Touch Targets:</strong> ≥ 44px (متطلّب WCAG)</li>
+  <li><strong>عرض العمود الأقصى:</strong> 440px (mobile-first)</li>
+</ul>
+
+<h2>المكوّنات الموحّدة (CSS Components)</h2>
+<table>
+  <thead>
+    <tr><th>الكلاس</th><th>الغرض</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>.btn-primary</code></td><td>زرّ رئيسي كحلي</td></tr>
+    <tr><td><code>.btn-secondary</code></td><td>زرّ ثانوي مفرّغ</td></tr>
+    <tr><td><code>.btn-ghost</code></td><td>زرّ شفّاف</td></tr>
+    <tr><td><code>.gov-card</code></td><td>بطاقة بيضاء بحدود رمادية</td></tr>
+    <tr><td><code>.gov-card-interactive</code></td><td>بطاقة قابلة للنقر مع hover</td></tr>
+    <tr><td><code>.gov-input</code></td><td>حقل إدخال مع focus ring</td></tr>
+    <tr><td><code>.gov-table</code></td><td>جدول بيانات بأسطر متناوبة</td></tr>
+    <tr><td><code>.gov-badge-{info,success,warn,danger,neutral}</code></td><td>badges ملوّنة</td></tr>
+    <tr><td><code>.gov-strip</code></td><td>شريط علم الأردن (4 ألوان)</td></tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════ 7. i18n ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">7 · i18n Implementation</div>
+  </div>
+</div>
+
+<h1>7. دعم اللغتين (i18n)</h1>
+
+<h2>المعمارية</h2>
+<p>منظومة i18n مخصّصة (custom-built) مكوّنة من 3 ملفّات:</p>
+<ul class="clean">
+  <li><code>src/i18n/translations.ts</code> — قاموس بـ 150+ مفتاح ترجمة</li>
+  <li><code>src/i18n/LangContext.tsx</code> — React Context Provider</li>
+  <li>استخدام مباشر عبر <code>useLang()</code> hook في كلّ مكوّن</li>
+</ul>
+
+<h2>كيف يعمل التبديل</h2>
+<pre>1. المستخدم يضغط زرّ AR/EN في صفحة Profile
+2. setLang('en') → React Context يُحدّث الحالة
+3. useEffect في LangProvider:
+   • document.documentElement.lang = 'en'
+   • document.documentElement.dir = 'ltr'
+   • localStorage.setItem('murshidi.lang', 'en')
+4. كلّ المكوّنات تُعيد العرض تلقائيّاً
+5. النصوص تتحوّل + الاتّجاه ينقلب RTL→LTR
+6. الأيقونات الاتّجاهيّة (chevrons) تتعدّل</pre>
+
+<h2>المثال البرمجي</h2>
+<pre>// في أيّ مكوّن:
+import { useLang } from '../i18n/LangContext';
+
+function MyComponent() {
+  const { t, lang, dir, toggleLang } = useLang();
+
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;{t('app.name')}&lt;/h1&gt;
+      &lt;p&gt;{lang === 'ar' ? 'عربي' : 'English'}&lt;/p&gt;
+      &lt;button onClick={toggleLang}&gt;Switch&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}</pre>
+
+<h2>المفاتيح الأساسيّة</h2>
+<p>القاموس مقسّم إلى مجموعات:</p>
+<ul class="clean">
+  <li><code>app.*</code> — اسم التطبيق، الوزارة، الإصدار</li>
+  <li><code>nav.*</code> — تابات Bottom Navigation</li>
+  <li><code>btn.*</code> — أزرار شائعة (next, back, skip, etc.)</li>
+  <li><code>pages.home.*</code> — محتوى الرئيسيّة</li>
+  <li><code>service.*</code> — الـ 8 خدمات الرئيسيّة</li>
+  <li><code>calc.*</code> — حاسبة عائد التعليم</li>
+  <li><code>profile.*</code> — صفحة الملفّ الشخصي</li>
+  <li><code>splash.*</code> — شرائح Onboarding</li>
+  <li><code>stat.*</code> — Stats المؤشّرات</li>
+  <li><code>common.*</code> — مصطلحات عامّة (دينار، شهر، إلخ)</li>
+</ul>
+
+<!-- ═══════════════════════════ 9. ROI LOGIC ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">9 · ROI Calculator Logic</div>
+  </div>
+</div>
+
+<h1>9. منطق حاسبة عائد التعليم</h1>
+
+<h2>المعادلة الرياضيّة</h2>
+<pre>employmentProb = 1 − (unemploymentRate / 100)
+
+5yIncome  = ((firstSalary + fiveYearSalary) / 2) × 12 × 5
+10yIncome = ((fiveYearSalary + tenYearSalary) / 2) × 12 × 5
+
+totalIncome = (5yIncome + 10yIncome) × employmentProb
+
+yearlyTuition = (gpa &gt;= acceptance) ? govTuition : privateTuition
+transport     = (city == 'Amman') ? 800 : 2000
+totalCost     = yearlyTuition × duration + (transport + 1500) × duration
+
+netROI         = totalIncome − totalCost
+annualReturn   = (totalIncome / totalCost)^(1/10) − 1
+paybackPeriod  = totalCost / (firstSalary × 12 × employmentProb)</pre>
+
+<h2>التطبيق البرمجي</h2>
+<pre>const results = useMemo(() => {
+  if (step !== 2) return [];
+  return selectedMajors.map((id) => {
+    const m = majorsData.find(x => x.id === id)!;
+    const yearlyTuition = gpa &gt;= m.averageAcceptance
+      ? m.yearlyTuitionGov
+      : m.yearlyTuitionPrivate;
+    const transport = isAmman ? 800 : 2000;
+    const totalCost = yearlyTuition * m.duration
+                    + (transport + 1500) * m.duration;
+    const employmentProb = 1 - m.unemploymentRate / 100;
+    const tenYearIncome =
+      (((m.firstSalary + m.fiveYearSalary) / 2) * 12 * 5 +
+       ((m.fiveYearSalary + m.tenYearSalary) / 2) * 12 * 5)
+      * employmentProb;
+    return {
+      major: m,
+      totalCost,
+      netROI: tenYearIncome - totalCost,
+      annualReturn: (Math.pow(tenYearIncome / totalCost, 1/10) - 1) * 100,
+      paybackYears: totalCost / (m.firstSalary * 12 * employmentProb),
+      acceptable: gpa &gt;= m.averageAcceptance,
+    };
+  }).sort((a, b) =&gt; b.netROI - a.netROI);
+}, [step, selectedMajors, gpa, city]);</pre>
+
+<h2>مثال: علوم الحاسوب بمعدّل 87 و ميزانيّة 5000</h2>
+<table>
+  <tbody>
+    <tr><td>الرسوم السنويّة (حكومي)</td><td>2,100 د</td></tr>
+    <tr><td>المدّة</td><td>4 سنوات</td></tr>
+    <tr><td>إجمالي الكلفة</td><td>2100×4 + 2300×4 = <strong>17,600 د</strong></td></tr>
+    <tr><td>بطالة التخصّص</td><td>14% (employmentProb = 0.86)</td></tr>
+    <tr><td>الراتب الأوّل</td><td>580 د/شهر</td></tr>
+    <tr><td>الراتب 5 سنوات</td><td>1,400 د/شهر</td></tr>
+    <tr><td>الراتب 10 سنوات</td><td>2,800 د/شهر</td></tr>
+    <tr><td>الدخل التقديري 10 سنوات</td><td>~155,400 د (قبل employmentProb)</td></tr>
+    <tr><td>الدخل بعد employmentProb</td><td>~133,600 د</td></tr>
+    <tr style="background: var(--bg);">
+      <td><strong>صافي العائد</strong></td>
+      <td><strong style="color: var(--green);">+116,000 د على 10 سنوات</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════ 10-11. BUILD &amp; CAPACITOR ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">10-11 · Build &amp; Capacitor</div>
+  </div>
+</div>
+
+<h1>10. عمليّة البناء (Build Pipeline)</h1>
+
+<h2>السكريبتات المتاحة</h2>
+<pre>npm run dev          # تشغيل خادم التطوير على :5173
+npm run build        # بناء إنتاجي (TypeScript + Vite)
+npm run preview      # معاينة البناء الإنتاجي
+npm run icons        # إعادة توليد أيقونات Android
+npm run android:sync # build + cap sync android
+npm run android:open # فتح Android Studio</pre>
+
+<h2>سلسلة الإنتاج (Pipeline)</h2>
+<pre>1. tsc -b              ← فحص TypeScript
+2. vite build          ← bundling إلى dist/
+3. cap sync android    ← مزامنة dist/ إلى android/
+4. gradlew assembleRelease ← APK موقّع
+5. apksigner verify    ← التحقّق من التوقيع</pre>
+
+<h1 style="margin-top: 30pt;">11. Capacitor &amp; Android APK</h1>
+
+<h2>إعداد Capacitor</h2>
+<pre>// capacitor.config.ts
+const config: CapacitorConfig = {
+  appId: 'jo.mizan.app',
+  appName: 'مُرشِدي',
+  webDir: 'dist',
+  backgroundColor: '#FFFFFF',
+  android: {
+    allowMixedContent: true,
+    backgroundColor: '#FFFFFF',
+  },
+  server: {
+    androidScheme: 'https',
+  },
+};</pre>
+
+<h2>توليد الأيقونات</h2>
+<p>سكريبت <code>generate-icons.mjs</code> يستخدم <code>sharp</code> لتوليد:</p>
+<ul class="clean">
+  <li>5 كثافات mipmap (mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi)</li>
+  <li>3 ملفّات لكلّ كثافة (ic_launcher, ic_launcher_round, ic_launcher_foreground)</li>
+  <li>= <strong>15 ملفّ PNG لـ Android</strong></li>
+  <li>+ favicon.png, icon-192.png, icon-512.png للـ PWA</li>
+  <li>+ ic_launcher_background.xml بلون كحلي #013070</li>
+</ul>
+
+<h2>توليد Splash</h2>
+<p>سكريبت <code>generate-splash.mjs</code> يولّد:</p>
+<ul class="clean">
+  <li>splash.png الافتراضي 480×800</li>
+  <li>5 splash بـ portrait orientation (mdpi → xxxhdpi)</li>
+  <li>5 splash بـ landscape orientation (mdpi → xxxhdpi)</li>
+  <li>splash_icon.png 512×512 للـ Android 12+ SplashScreen API</li>
+  <li>= <strong>12 ملفّ splash إجمالاً</strong></li>
+</ul>
+
+<!-- ═══════════════════════════ 12. SECURITY ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">12 · Security &amp; Signing</div>
+  </div>
+</div>
+
+<h1>12. التوقيع الرقمي والأمان</h1>
+
+<h2>إنشاء Keystore</h2>
+<pre>keytool -genkey -v \
+  -keystore mizan-release.keystore \
+  -alias mizan \
+  -keyalg RSA -keysize 2048 \
+  -validity 10000 \
+  -dname "CN=Mizan, OU=Education, O=Jordan MoHE, L=Amman, S=Amman, C=JO"</pre>
+
+<h2>إعدادات التوقيع</h2>
+<pre>// android/app/build.gradle
+android {
+  signingConfigs {
+    release {
+      storeFile file('../mizan-release.keystore')
+      storePassword 'mizan2026'
+      keyAlias 'mizan'
+      keyPassword 'mizan2026'
+    }
+  }
+  buildTypes {
+    release {
+      signingConfig signingConfigs.release
+    }
+  }
+}</pre>
+
+<h2>التحقّق من التوقيع</h2>
+<pre>$ apksigner verify -v Murshidi-v1.0.0-release.apk
+Verifies
+Verified using v2 scheme (APK Signature Scheme v2): true
+Number of signers: 1</pre>
+
+<h2>الأذونات المطلوبة</h2>
+<ul class="check">
+  <li><code>android.permission.INTERNET</code> فقط (لتحديثات WebView)</li>
+  <li>لا أذونات حسّاسة (كاميرا، GPS، جهات اتّصال، etc.)</li>
+  <li>لا تتبّع المستخدم — كلّ البيانات محلّيّة</li>
+</ul>
+
+<h2>حماية الخصوصيّة</h2>
+<ul class="check">
+  <li>اللغة المفضّلة محفوظة في <code>localStorage</code> فقط</li>
+  <li>لا إرسال بيانات لخادم خارجي</li>
+  <li>لا analytics خارجيّة (لا Firebase، لا Google Analytics)</li>
+  <li>التطبيق يعمل بالكامل offline بعد التثبيت</li>
+</ul>
+
+<!-- ═══════════════════════════ 13. QA ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">13 · Quality Assurance</div>
+  </div>
+</div>
+
+<h1>13. الاختبار وضمان الجودة</h1>
+
+<h2>قائمة الاختبارات اليدويّة</h2>
+<ul class="check">
+  <li>التطبيق يفتح خلال 2 ثانية</li>
+  <li>جميع الـ 13 شاشة تعمل بدون أخطاء</li>
+  <li>حاسبة ROI تعطي نتائج صحيحة لمعدّلات مختلفة (60-100)</li>
+  <li>المقارنة تستوعب 3 تخصّصات مختلفة</li>
+  <li>اختبار الميول يكمل 12 سؤالاً ويعطي نتيجة</li>
+  <li>الاستشارة الذكيّة تردّ على 6 أنواع أسئلة مختلفة</li>
+  <li>التطبيق RTL بالكامل بالعربيّة، LTR بالإنجليزيّة</li>
+  <li>Touch targets ≥ 44px على كلّ الأزرار</li>
+  <li>Bottom Nav يختفي عند فتح الكيبورد</li>
+  <li>الـ Sliders بُدّلت بـ Steppers ثابتة لا تنكسر</li>
+  <li>لا توجد errors في WebView console</li>
+  <li>التطبيق يعمل بدون إنترنت بعد التثبيت</li>
+</ul>
+
+<h2>الأجهزة المُختبَر عليها</h2>
+<table>
+  <thead>
+    <tr><th>الجهاز</th><th>إصدار Android</th><th>الحالة</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Samsung Galaxy A52</td><td>12</td><td><span class="badge badge-success">ممتاز</span></td></tr>
+    <tr><td>Xiaomi Redmi Note 10</td><td>11</td><td><span class="badge badge-success">ممتاز</span></td></tr>
+    <tr><td>Honor 8X</td><td>9</td><td><span class="badge badge-success">جيّد</span></td></tr>
+    <tr><td>Pixel 5</td><td>14</td><td><span class="badge badge-success">ممتاز</span></td></tr>
+    <tr><td>Android Studio Emulator API 30</td><td>11</td><td><span class="badge badge-success">ممتاز</span></td></tr>
+    <tr><td>Android Studio Emulator API 33</td><td>13</td><td><span class="badge badge-success">ممتاز</span></td></tr>
+    <tr><td>Android Studio Emulator API 34</td><td>14</td><td><span class="badge badge-success">ممتاز</span></td></tr>
+  </tbody>
+</table>
+
+<!-- ═══════════════════════════ 14. SCALING ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">14 · Scaling Plan</div>
+  </div>
+</div>
+
+<h1>14. خطّة التوسّع</h1>
+
+<h2>المرحلة 2 (3 أشهر)</h2>
+<ul class="clean">
+  <li>إضافة منصّة iOS عبر <code>npx cap add ios</code></li>
+  <li>رفع التطبيق على Google Play Store + App Store</li>
+  <li>تكامل Firebase Analytics اختياري (مع opt-in)</li>
+  <li>دعم تنزيل التقارير كـ PDF</li>
+</ul>
+
+<h2>المرحلة 3 (6 أشهر)</h2>
+<ul class="clean">
+  <li>خادم خلفي حقيقي (Node.js + PostgreSQL)</li>
+  <li>Web Scraping يومي للوظائف عبر Cron Jobs</li>
+  <li>لوحة إدارة محتوى (Admin Dashboard) للوزارة</li>
+  <li>إشعارات Push (منح جديدة، تنبيهات بطالة)</li>
+</ul>
+
+<h2>المرحلة 4 (سنة)</h2>
+<ul class="clean">
+  <li>تكامل API مع وزارة التعليم العالي</li>
+  <li>تكامل DOS Open Data Portal</li>
+  <li>Mentor Matching حقيقي مع جلسات Video</li>
+  <li>Career Simulation بـ Claude API الحقيقي</li>
+</ul>
+
+<h2>المرحلة 5 (سنتان)</h2>
+<ul class="clean">
+  <li>التوسّع الإقليمي: السعوديّة، الإمارات، مصر، المغرب</li>
+  <li>اعتماد رسمي من وزارات التعليم العالي العربيّة</li>
+  <li>منصّة بيانات تعليم عربيّة موحّدة</li>
+</ul>
+
+<!-- ═══════════════════════════ 15. MAINTENANCE ═══════════════════════════ -->
+<div class="page-break"></div>
+<div class="page-header">
+  <img src="logo.svg" alt="">
+  <div>
+    <div class="name">مُرشِدي · Documentation</div>
+    <div class="doc">15 · Maintenance Guide</div>
+  </div>
+</div>
+
+<h1>15. دليل الصيانة</h1>
+
+<h2>تحديث بيانات التخصّصات</h2>
+<p>عدّل ملفّ <code>src/data/majors.ts</code>:</p>
+<pre>{
+  id: 'cs',
+  nameAr: 'علوم الحاسوب',
+  nameEn: 'Computer Science',
+  unemploymentRate: 14,    // ← من DOS Q1 2026
+  firstSalary: 580,        // ← متوسّط السوق
+  yearlyTuitionGov: 2100,  // ← الجامعة الأردنيّة
+  averageAcceptance: 84.3, // ← من MoHE
+  // ...
+}</pre>
+
+<h2>إضافة لغة جديدة</h2>
+<p>في <code>src/i18n/translations.ts</code>:</p>
+<pre>export const translations = {
+  ar: { ... },
+  en: { ... },
+  fr: {                        // ← لغة جديدة
+    'app.name': 'Murshidi',
+    // ... ترجم كل المفاتيح
+  },
+};
+
+export type Lang = 'ar' | 'en' | 'fr';</pre>
+
+<h2>إصدار نسخة جديدة من APK</h2>
+<pre>1. حدّث الإصدار:
+   • package.json: "version": "1.1.0"
+   • android/app/build.gradle:
+     versionCode 2
+     versionName "1.1.0"
+
+2. ابنِ:
+   $ npm run build
+   $ npx cap sync android
+   $ cd android &amp;&amp; ./gradlew assembleRelease
+
+3. حقّق:
+   $ apksigner verify app-release.apk
+
+4. وزّع:
+   • Google Play (مع keystore الأصلي)
+   • أو نشر مباشر للمستخدمين</pre>
+
+<h2>التحديث على متجر Google Play</h2>
+<ul class="check">
+  <li><strong>مهمّ:</strong> استخدم نفس <code>mizan-release.keystore</code> دائماً</li>
+  <li>استخدم نفس <code>applicationId</code> = <code>jo.mizan.app</code></li>
+  <li>زِد <code>versionCode</code> بـ 1 لكلّ نسخة</li>
+  <li>غيّر <code>versionName</code> حسب نظام Semantic Versioning</li>
+</ul>
+
+<h2>التواصل مع Capacitor</h2>
+<p>لمسائل الـ Capacitor، الموارد الرسميّة:</p>
+<ul class="clean">
+  <li>الموقع: <code>capacitorjs.com</code></li>
+  <li>Github: <code>ionic-team/capacitor</code></li>
+  <li>Discord مجتمع Ionic</li>
+</ul>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<div class="footer-meta">
+  <p><strong>التوثيق الفنّي الكامل · مُرشِدي 1.0.0</strong></p>
+  <p>المملكة الأردنيّة الهاشميّة · وزارة التعليم العالي والبحث العلمي · 2026</p>
+  <p style="margin-top: 8pt;">للاستفسارات الفنّية، راجع ملف <code>README.md</code> في مجلّد التسليم</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+{
+  "verifiedAt": "2026-09-10",
+  "purpose": "Murshidi public education data and judges presentation",
+  "sources": [
+    {
+      "id": "dos-unemployment",
+      "publisherAr": "دائرة الإحصاءات العامة الأردنية",
+      "url": "https://dosweb.dos.gov.jo/unemp_092026/",
+      "indexUrl": "https://dosweb.dos.gov.jo/category/news/unemployment-rate/",
+      "publishedAt": "2026-09-07T08:27:09Z",
+      "coverage": "Q2 2026",
+      "dataType": "official_unemployment_aggregate",
+      "availability": "live_archive_and_latest_article_parsed_and_verified",
+      "facts": [
+        { "key": "totalPopulationUnemployment", "value": 16.1, "unit": "percent", "scope": "Jordanian and non-Jordanian labour force in Jordan" },
+        { "key": "jordanianUnemployment", "value": 21.0, "unit": "percent", "scope": "Jordanian male and female labour force" }
+      ],
+      "caveatAr": "المؤشر يقيس البطالة الإجمالية، ولا يمثل احتمال توظيف شخص أو خريج تخصص بعينه."
+    },
+    {
+      "id": "tawjihi-2026",
+      "publisherAr": "وكالة الأنباء الأردنية بترا، نقلًا مباشرًا عن مؤتمر وزارة التربية والتعليم",
+      "url": "https://www.petra.gov.jo/ar/news/التربية-653-نسبة-النجاح-في-التوجيهي",
+      "publishedAt": "2026-08-10T22:42:32+03:00",
+      "coverage": "امتحان الثانوية العامة العام 2026، الأردن",
+      "dataType": "official_cohort_aggregate",
+      "availability": "published_verified",
+      "facts": [
+        { "key": "registered", "value": 196050, "unit": "students" },
+        { "key": "attended", "value": 178296, "unit": "students" },
+        { "key": "passed", "value": 116366, "unit": "students" },
+        { "key": "passRate", "value": 65.3, "unit": "percent", "denominator": "attended" },
+        { "key": "regularRegistered", "value": 140985, "unit": "students" },
+        { "key": "regularAttended", "value": 134126, "unit": "students" },
+        { "key": "regularPassed", "value": 90326, "unit": "students" },
+        { "key": "privateStudyRegistered", "value": 55065, "unit": "students" },
+        { "key": "privateStudyAttended", "value": 44170, "unit": "students" },
+        { "key": "privateStudyPassed", "value": 26040, "unit": "students" }
+      ],
+      "caveatAr": "يشمل المسجلين والمتقدمين النظاميين والدراسة الخاصة. عدد الناجحين ليس عدد المتقدمين للجامعات ولا عدد عملاء المشروع."
+    },
+    {
+      "id": "current-programs-2026",
+      "publisherAr": "وحدة تنسيق القبول الموحد",
+      "url": "https://www.admhec.gov.jo/Majors.aspx",
+      "unitEvidenceUrl": "https://www.admhec.gov.jo/AboutPage.aspx",
+      "unitEvidenceAr": "شرح الموقع الرسمي لقسم تخصصات الجامعات يصف الرسوم بأنها رسوم الساعات.",
+      "publishedAt": null,
+      "coverage": "2026/2027، البرامج المطروحة في القبول الموحد",
+      "dataType": "current_program_catalog_fees_eligibility",
+      "availability": "607_rows_extracted_21_pages",
+      "localFile": "official-program-catalog-2026-2027.json",
+      "facts": [{ "key": "programs", "value": 607, "unit": "program_offerings" }],
+      "caveatAr": "رسوم وشرط أهلية بحسب مرشح العلمي، وليست الحدود التنافسية. لا يوجد في الاستخراج عدد ساعات الخطة الدراسية."
+    },
+    {
+      "id": "historical-cutoffs",
+      "publisherAr": "وحدة تنسيق القبول الموحد",
+      "url": "https://www.admhec.gov.jo/LeastAverages.aspx",
+      "publishedAt": null,
+      "coverage": "السنوات 2021 و2022 و2023 و2024 و2025، ثانوية أردنية",
+      "dataType": "historical_competitive_admission_cutoffs",
+      "availability": "607_rows_extracted_23_university_options",
+      "localFile": "official-admission-cutoffs-2021-2025.json",
+      "facts": [{ "key": "latestPublishedColumn", "value": 2025, "unit": "admission_year" }],
+      "caveatAr": "لم يعرض المصدر عمود 2026 عند التحقق. القيم مرجع تاريخي ولا تعني ضمان قبول أو احتمال قبول محسوب."
+    },
+    {
+      "id": "higher-education-2025-2026",
+      "publisherAr": "وزارة التعليم العالي والبحث العلمي",
+      "url": "https://www.mohe.gov.jo/EBV4.0/Root_Storage/AR/EB_News/infograf2.png",
+      "indexUrl": "https://www.mohe.gov.jo/AR/Pages/_انفوجراف__",
+      "publishedAt": null,
+      "coverage": "مطلع العام الجامعي 2025/2026",
+      "dataType": "official_enrollment_aggregate",
+      "availability": "official_infographic_visually_verified",
+      "facts": [
+        { "key": "enrolledAllHigherEducation", "value": 480009, "unit": "students" },
+        { "key": "enrolledPublicUniversitiesAndColleges", "value": 287320, "unit": "students" },
+        { "key": "enrolledPrivateUniversitiesAndColleges", "value": 192689, "unit": "students" },
+        { "key": "enrolledBachelor", "value": 395529, "unit": "students" },
+        { "key": "enrolledIntermediateDiploma", "value": 52899, "unit": "students" },
+        { "key": "enrolledHigherDiploma", "value": 5668, "unit": "students" },
+        { "key": "enrolledMaster", "value": 21465, "unit": "students" },
+        { "key": "enrolledDoctorate", "value": 4448, "unit": "students" },
+        { "key": "internationalStudents", "value": 55410, "unit": "students" },
+        { "key": "internationalStudentsCountries", "value": 119, "unit": "countries" }
+      ],
+      "caveatAr": "هذه أعداد دارسين وليست أعداد خريجين. تاريخ 2026/09/06 في فهرس الوزارة تعديل للصفحة، وليس تاريخ نشر الرسم المثبت."
+    },
+    {
+      "id": "graduates-latest-listed",
+      "publisherAr": "وزارة التعليم العالي والبحث العلمي",
+      "url": "https://www.mohe.gov.jo/ebv4.0/root_storage/ar/eb_list_page/خلاصة_بالطلبة_الخريجين2022.pdf",
+      "indexUrl": "https://www.mohe.gov.jo/Ar/List/الإحصاءات",
+      "publishedAt": null,
+      "coverage": "2022/2023 بحسب عنوان الوثيقة في فهرس الوزارة",
+      "dataType": "official_graduate_aggregate",
+      "availability": "latest_listed_document_pdf_text_and_image_verified",
+      "facts": [
+        { "key": "allHigherEducationGraduates", "value": 74718, "unit": "graduates", "scope": "All qualifications and nationalities" },
+        { "key": "bachelorGraduates", "value": 56781, "unit": "graduates", "scope": "Bachelor degree, all nationalities" }
+      ],
+      "caveatAr": "أحدث خلاصة ظاهرة في فهرس الوزارة تغطي 2022/2023. لا يجوز إعادة تسميتها بأنها دفعة 2026، ولا استخدام أعداد الدارسين بدل الخريجين."
+    },
+    {
+      "id": "aabu-undergraduate-fees",
+      "publisherAr": "جامعة آل البيت، الدائرة المالية",
+      "url": "https://aabu.edu.jo/ar/Departments/finance/Pages/hourfeesforundergraduate.aspx",
+      "publishedAt": null,
+      "coverage": "صفحة رسوم البكالوريوس المتاحة في 2026-09-10، الطلبة الأردنيون",
+      "dataType": "tuition_per_credit_and_admission_term_fees",
+      "availability": "published_verified",
+      "facts": [
+        { "key": "computerScienceRegularPerCredit", "value": 40, "unit": "JOD_per_credit" },
+        { "key": "computerScienceParallelPerCredit", "value": 55, "unit": "JOD_per_credit" },
+        { "key": "cybersecurityRegularPerCredit", "value": 50, "unit": "JOD_per_credit" },
+        { "key": "computerScienceRegularFirstTermCredits", "value": 13, "unit": "credits_in_admission_term" },
+        { "key": "regularOneTimeAdmissionFee", "value": 130, "unit": "JOD" },
+        { "key": "regularSemesterFee", "value": 80, "unit": "JOD" },
+        { "key": "computerScienceRegularAdmissionTermTotal", "value": 730, "unit": "JOD" }
+      ],
+      "caveatAr": "عدد الساعات 13 في الصفحة يخص فصل القبول، وليس عدد ساعات البكالوريوس."
+    }
+  ]
+}

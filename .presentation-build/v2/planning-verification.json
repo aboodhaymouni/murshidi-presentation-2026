@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "checks": [
+    "Budget changes affordability and funding gap",
+    "Empty/zero inputs rejected",
+    "No-results search",
+    "Compared program passes to cost plan",
+    "Extra year affects scenario",
+    "Three viewport sizes"
+  ],
+  "geometry": [
+    {
+      "width": 375,
+      "route": "/roi",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/compare",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/simulate",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/roi",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/compare",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/simulate",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/roi",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/compare",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/simulate",
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

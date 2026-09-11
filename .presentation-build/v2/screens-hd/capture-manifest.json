@@ -1,0 +1,70 @@
+{
+  "capturedAt": "2026-09-10T20:13:44.698Z",
+  "base": "http://127.0.0.1:5183",
+  "viewport": {
+    "width": 390,
+    "height": 818
+  },
+  "deviceScaleFactor": 4,
+  "source": "Actual running application; no DOM or CSS alterations",
+  "programs": 607,
+  "sources": [
+    {
+      "id": "dos-unemployment",
+      "titleAr": "دائرة الإحصاءات العامة",
+      "url": "https://dosweb.dos.gov.jo/unemp_092026/",
+      "referencePeriod": "Q2 2026",
+      "publishedAt": "2026-09-07T08:27:09.000Z",
+      "checkedAt": "2026-09-10T19:07:49.234Z",
+      "status": "snapshot"
+    },
+    {
+      "id": "tawjihi-2026",
+      "titleAr": "نتائج توجيهي 2026 — بترا عن وزارة التربية",
+      "url": "https://www.petra.gov.jo/ar/news/التربية-653-نسبة-النجاح-في-التوجيهي",
+      "referencePeriod": "2026",
+      "publishedAt": "2026-08-10T19:42:32Z",
+      "checkedAt": "2026-09-10T19:07:49.234Z",
+      "status": "snapshot"
+    },
+    {
+      "id": "admhec-programs",
+      "titleAr": "دليل البرامج والرسوم — القبول الموحد",
+      "url": "https://www.admhec.gov.jo/Majors.aspx",
+      "referencePeriod": "2026/2027",
+      "publishedAt": null,
+      "checkedAt": "2026-09-10T19:07:49.234Z",
+      "status": "snapshot"
+    },
+    {
+      "id": "admhec-cutoffs",
+      "titleAr": "الحدود التنافسية السابقة — القبول الموحد",
+      "url": "https://www.admhec.gov.jo/LeastAverages.aspx",
+      "referencePeriod": "2021–2025؛ أحدث حد منشور 2025",
+      "publishedAt": null,
+      "checkedAt": "2026-09-10T19:07:49.234Z",
+      "status": "snapshot"
+    },
+    {
+      "id": "higher-education-enrollment",
+      "titleAr": "دارسو التعليم العالي — إحصاءات الوزارة",
+      "url": "https://www.mohe.gov.jo/EBV4.0/Root_Storage/AR/EB_News/infograf2.png",
+      "referencePeriod": "2025/2026",
+      "publishedAt": null,
+      "checkedAt": "2026-09-10",
+      "status": "snapshot",
+      "error": "لقطة رسمية بسنة البيانات المعروضة؛ هذا المصدر غير مشمول بالتحديث الآلي المحافظ حاليًا."
+    },
+    {
+      "id": "higher-education-graduates",
+      "titleAr": "خريجو التعليم العالي — أحدث خلاصة منشورة",
+      "url": "https://www.mohe.gov.jo/ebv4.0/root_storage/ar/eb_list_page/خلاصة_بالطلبة_الخريجين2022.pdf",
+      "publishedAt": null,
+      "referencePeriod": "2022/2023",
+      "checkedAt": "2026-09-10",
+      "status": "snapshot",
+      "error": "لقطة رسمية بسنة البيانات المعروضة؛ هذا المصدر غير مشمول بالتحديث الآلي المحافظ حاليًا."
+    }
+  ],
+  "errors": []
+}

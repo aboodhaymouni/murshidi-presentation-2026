@@ -1,0 +1,872 @@
+
+
+===== PAGE 1 =====
+CForr Boeswt Gnov ePrnmreinnt Scerevic eA Apwpliacatriodn
+CROWN PRINCE AWARD
+FOR BEST GOVERNMENT SERVICES APPLICATION
+MANUAL – 5TH EDITION
+2025
+SUMMARY ADDRESS CONTACT US
+THE CROWN PRINCE AWARD IS A NATIONAL COMPETITION THAT WWW.CPA.JO (06) 8080 500
+ENCOURAGES JORDANIAN STUDENTS TO DEVELOP INNOVATIVE INFO.@CPA.JO
+MOBILE APPS THAT IMPROVE GOVERNMENT SERVICES, WWW.CPA.JO
+SUPPORTING DIGITAL TRANSFORMATION AND YOUTH INNOVATION.
+
+===== PAGE 2 =====
+E
+M
+OC
+L
+E
+W
+Welcome
+The Crown Prince Award for Best Government Services Application is a national competition designed to engage
+students from public and private universities and community colleges across Jordan in shaping the future of digital
+public services. Launched in 2019, the award has become a flagship initiative to foster innovation, stimulate
+problem-solving, and empower young people to actively contribute to the development of high-quality, accessible
+government services through mobile applications.
+
+===== PAGE 3 =====
+▪ Introduction 04
+▪ Targeted Sectors 05
+▪ Eligibility Criteria 07
+▪ CPA Governance 10
+▪ CPA Digital Platform 20
+▪ Award Categories & Recognition Pathways 22
+TABLE OF
+CONTENTS
+▪ Evaluation Workflow & Criteria 24
+▪ Award Timeline 37
+▪ Our Partners 40
+
+===== PAGE 4 =====
+04 AWARD MANUAL
+INTRODUCTION
+Over the years, we have continuously refined our approach to outreach, mentorship, and evaluation, making the award
+more inclusive, accessible, and supportive of students from all academic backgrounds. Recognizing the need for more
+targeted guidance and practical support, awareness efforts have been expanded to reach more institutions, and
+sector-specific insights have been introduced to help participants align their ideas with real service needs and enhance
+citizens’ lives. These efforts are strategically aligned with the Economic Modernization Vision 2030 and broader national
+policies, ensuring that the award contributes to Jordan’s long-term development goals.
+Crown Prince Award
+For Best Government Service Application The 2024 edition marked a significant milestone in the award’s evolution, engaging 352 students from 25 educational
+institutions. The award’s sectoral coverage expanded to 11 domains, representing a %22.2 growth compared to 2023.
+Submissions showcased clear advancements in innovation depth, technical feasibility, and user-centered design—results
+credited to improved participant preparation and more structured guidance throughout the application process.
+This manual was developed to guide students throughout their journey in the competition. It provides clear and structured information on how to
+participate, including the eligibility criteria, evaluation criteria, award categories, timelines, and prizes. It also outlines the core values that guide the
+award: transparency, fairness, inclusiveness, and innovation with real public impact.
+Spearheaded by the Ministry of Digital Economy and Entrepreneurship, in collaboration with the Crown Prince Foundation and in partnership with
+universities, community colleges, and stakeholders from both the public and private sectors, the award aims to empower a generation of creative
+thinkers, digital innovators, and civic-minded problem-solvers. It encourages students to develop solutions that address challenges in government
+services—making them more efficient, intelligent, and responsive to citizens’ needs.
+By participating, students not only gain valuable experience in real-world innovation practices but also contribute to shaping Jordan’s digital future. We
+encourage you to explore this manual thoroughly, leverage the available resources, and present your ideas with purpose, creativity, and ambition.
+Step up. Make an impact. Reimagine public services. Let’s build the future together.
+
+===== PAGE 5 =====
+AWARD MANUAL 05
+TARGETED SECTORS
+In alignment with the evolving vision and strategic direction of
+the Crown Prince Award for Best Government Services GO GREEN
+Application, the award’s structure continues to evolve and
+improve. Looking ahead to the 2025 edition, a list of defined Resource Conservation
+priority sectors—outlined in the registration form (Annex Reducing consumption of resources like paper
+01)—will be reintroduced not as limitations but as thematic
+Energy Efficiency
+guides. These sectors are intended to reflect national
+Improving energy use and environmental awareness
+development priorities and help participants align their ideas
+with key areas of public service. Eco-Friendly Behaviors
+Promoting sustainable actions through gamification
+These sectors will serve as a source of inspiration, guiding Circular Economy
+students toward areas where innovation can deliver Advancing practices to reduce digital waste
+meaningful and measurable public impact.
+Sustainability and Greening: A Future-Ready Mindset By integrating sustainability principles—even in small ways—your application
+While not a standalone sector, greening and sustainability are can contribute to Jordan’s green transition and align with global best practices
+cross-cutting themes that students are strongly encouraged to in responsible innovation. Adopting this mindset will also help your solution
+integrate into their solutions across all sectors. Whether you are stand out as forward-thinking and scalable, addressing both local priorities
+working on ideas in transportation, education, healthcare, or and global sustainability goals.
+government communication, consider how your solution
+could:
+
+===== PAGE 6 =====
+06 AWARD MANUAL
+ADOPTING A GREEN MINDSET GIVES YOUR IDEA A
+COMPETITIVE EDGE, ENHANCING ITS INNOVATIVE
+POTENTIAL AND LONG-TERM IMPACT.
+This balanced approach—providing
+sectoral direction while preserving
+creative flexibility—is designed to
+inspire bolder, smarter, and more
+impactful solutions from Jordan’s
+youth. You are invited not only to solve
+today’s challenges but to actively
+contribute to building a more resilient
+and sustainable future.
+
+===== PAGE 7 =====
+AWARD MANUAL 07
+ELIGIBILITY CRITERIA
+Participation in the Crown Prince Award for Best Government Services Application is governed by a clear set of eligibility
+requirements. These ensure that all participants compete under fair, transparent, and consistent conditions, while upholding the
+Award’s core mission.
+This section outlines who can participate and the specific criteria each applicant must meet to qualify for submission.
+Who Can Participate
+
+===== PAGE 8 =====
+08 AWARD MANUAL
+ELIGIBILITY CRITERIA
+• Participants must be currently enrolled in
+a public or private university or
+community college in Jordan.
+• This includes students pursuing
+Bachelor’s, Master’s, or PhD degree
+programs.
+• The educational institution must be
+formally accredited and recognized by
+the relevant accreditation authority in the
+Hashemite Kingdom of Jordan.
+STATUS ENROLLMENT COMPOSITION TEAM OWNERSHIP PROJECT
+• Students are required to apply as part of
+a team; individual submissions are not
+• The project must be fully executed by
+permitted.
+the students without any external
+assistance or support.
+• Each team must include a minimum of
+two (2) and a maximum of six (6) eligible
+• No external parties—including developers,
+members.
+faculty members, or third-party service
+providers—may be involved in the core
+• All team members must individually
+development of the application.
+fulfill the enrollment criteria specified
+above.
+Applications must be designed with
+bilingual functionality (Arabic and English)
+to ensure accessibility and inclusivity for a
+broad range of users across Jordan.
+COMPATIBILITY LANGUAGE FORMAT APPLICATION ENTRIES MULTIPLE
+TO BE ELIGIBLE FOR THE AWARD, APPLICANTS MUST MEET THE FOLLOWING CRITERIA:
+• Submissions must include a fully
+functional mobile application that can be
+independently tested by the evaluation • A single team may submit multiple
+teams. applications, provided each submission is
+unique and clearly differentiated.
+• For Android, teams are required to an
+upload a valid .apk file. • A single participating team can be
+represented by several university or
+• For iOS, teams must submit the app via community college
+Apple’s Test Flight along with active
+access credentials.
+
+===== PAGE 9 =====
+AWARD MANUAL 09
+IMPORTANT NOTES
+• Late or incomplete submissions will not be accepted under any circumstances.
+• Any instance of plagiarism or third-party development will lead to immediate disqualification.
+• Teams found to have misrepresented eligibility information or attempted to circumvent submission rules will be subject
+to administrative review.
+• Applications must be fully compatible with current versions of Android and iOS. Submissions developed for outdated or
+unsupported operating systems will be disqualified if they cannot be properly accessed, tested, or evaluated using
+standard modern devices.
+• All team members must be officially
+enrolled as of the official launch date of
+ELIGIBILITY REQUIREMENTS
+the award cycle. Students who graduate
+prior to the launch date are ineligible These eligibility requirements ensure that the Award remains a student-led, innova-
+unless enrolled in a new academic tion-driven competition. By clearly defining who can participate and under what
+conditions, we uphold a fair, transparent, and competitive environment that reflects
+program (e.g., progressing from
+the integrity of the award and the spirit of youth empowerment.
+Bachelor’s to Master’s degree).
+
+===== PAGE 10 =====
+10 AWARD MANUAL
+CPA GOVERNANCE
+The Crown Prince Award for Best Government Services Application is administered through a structured governance framework that ensures
+transparency, strategic coherence, and operational efficiency across all phases of the competition. This governance model reinforce the credibility and
+integrity of the award, enhances the student’s experience, and facilitates seamless coordination among national institutions, universities, and the
+innovation ecosystem.
+• Purpose of the Governance Model
+The governance framework of the Crown Prince Award for Best Government Services Application is designed to:
+Establish Clear Roles Foster cross-sector collaboration
+and responsibilities across all levels of the between government, academia, and the
+01 award administration. 02 private sector.
+Ensure Fairness Enhance student engagement
+consistency, and transparency through through structured support guidance and
+03 standardized processes, evaluation criteria, and 04 coordinated institutional efforts.
+oversight mechanisms.
+Preserve the award’s
+credibility maximize its impact by ensuring
+05 operational excellence and strategic coherence.
+This section outlines the core components of the governance model, its structure, functions, and role in ensuring the delivery of a successful and
+high-impact award cycle.
+
+===== PAGE 11 =====
+AWARD MANUAL 11
+1. STEERING COMMITTEE (CPA SC)
+The Steering Committee serves as the principal governing body
+of the award, providing strategic direction and High level CORE RESPONSIBILITIES
+oversight to ensure the initiative remains fully aligned with
+Strategic Direction:
+Jordan’s digital transformation agenda and the Economic
+Define the award’s annual vision, strategic focus areas, and
+Modernization Vision 2033. thematic priorities.
+Policy Oversight:
+Chairperson Approve the comprehensive operational framework, including
+eligibility criteria, evaluation standards, and participant
+• His Excellency the Minister of Digital Economy and
+engagement protocols.
+Entrepreneurship.
+Evaluation and Selection Approval:
+Provide final endorsement of the evaluation process and
+Composition confirm the selection of winning teams.
+• MoDEE’s Secretary general Stakeholder Coordination:
+• Ministry of higher education and science research secretary Strengthen collaboration with public institutions, academic
+bodies, and private sector partners to foster widespread
+general participation and innovation.
+• Senior officials from the Ministry of Digital Economy and
+Resource Mobilization: Facilitate:
+Entrepreneurship (MoDEE) financial and institutional support through partnerships
+• Crown Prince Foundation CEO chief executive officer (CPF) collaborations to ensure the program’s sustainability and long
+term impact.
+The Steering committee ensures the participant’s efforts are evaluated fairly and that the award remains true to its mission: empowering youth
+to create meaningful change through technology.
+
+===== PAGE 12 =====
+12 AWARD MANUAL
+2. CPA DIRECTOR
+The CPA Director serves as the executive lead responsible for translating the Steering Committee’s strategic direction into action across all phases
+of the award. The Director ensures that every stage—from registration to final recognition—is implemented efficiently, transparently, and with
+comprehensive support for all participating teams.
+Appointment
+The Director is formally nominated by the Chairperson of the Steering Committee and operates under their direct supervision and strategic
+guidance.
+Key Functions
+STAGES OF THE AWARD CYCLE COORDINATE AND ALIGN
+LEAD THE PLANNING, EXECUTION, AND COORDINATE AND ALIGN CROSS-FUNCTIONAL
+PERFORMANCE REPORTING ACROSS ALL TEAMS, INCLUDING INTERNAL MANAGEMENT,
+STAGES OF THE AWARD CYCLE. EVALUATION COMMITTEES, AND EXTERNAL
+STAKEHOLDERS
+ENSURE ADHERENCE OVERSEE RISK MANAGEMENT
+ENSURE ADHERENCE TO PROCEDURAL, FACILITATE ISSUE ESCALATION, AND
+ETHICAL AND GOVERNANCE STANDARDS DRIVE CONTINUOUS PROCESS
+ESTABLISHED BY THE STEERING IMPROVEMENT.
+COMMITTEE.
+
+===== PAGE 13 =====
+AWARD MANUAL 13
+3. CPA MANAGEMENT TEAM
+The CPA Management Team functions as the operational backbone of the award. It comprises staff from MoDEE and the Crown Prince Foundation,
+bringing together expertise in innovation management, strategic communications, digital system and and student engagement.
+Core Responsibilities
+Outreach & Awareness: Develop and Application Management: Review
+implement communication campaigns, registration data, verify application
+host webinars, and organize on-campus eligibility, and oversee the digital
+engagement sessions. submission platform.
+Evaluation Logistics: Establish Participant Support: Handle student
+evaluation committees, manage inquiries, resolve technical issues, and
+assessment timelines and prepare provide ongoing guidance throughout
+briefing materials for evaluators. the award cycle.
+Data and Feedback Analysis: Track
+submission trends, assess user
+experience, and compile post-award
+insights and reports.
+
+===== PAGE 14 =====
+14 AWARD MANUAL
+4. EVALUATION TEAMS
+To uphold the principles of fairness, rigor, and transparency, the evaluation process of the Crown Prince Award for Best Government Services
+Application follows a structured, multi-stage framework, led by specialized evaluation teams. This tiered review model ensures that each undergoes a
+comprehensive assessment beginning with eligibility screening followed by evaluation of technical performance, and concluding with a review of
+innovation and societal impact.
+The CPA is more than an award—it is a national platform that empowers future leaders to demonstrate what possible when creativity meets
+public sector challenges.
+This approach not only strengthens objectivity and integrity of the process, but also reinforce the Award’s commitment to sector relevance, real-world
+impact, and the scalability of student driven digital solutions.
+i. Initial Screening Team
+Managed by: Ministry of Digital Economy and Entrepreneurship (MoDEE)
+Purpose:
+This team is responsible for conducting a comprehensive initial review of all submitted applications to ensure they fulfill the basic eligibility and
+technical submission requirements prior to advancing to the formal evaluation stages.
+Evaluation Dimensions:
+The team is responsible for verifying compliance with all eligibility and submission criteria. This includes confirming student’s enrollment status,
+validating team composition and ensuring that the application was developed in house by the student team. Additionally, submissions are reviewed
+for completeness, proper file formatting, and bilingual functionality (Arabic and English).
+Scoring Output:
+Only submissions that fully meet the eligibility and submission criteria will advance to the technical evaluation stage. Entries that are incomplete or
+non-compliant will be disqualified to uphold the integrity and fairness of the competition.
+Each Applications will result in one of the following outcomes:
+• Approved for progression to the technical review phase.
+• Rejected due to ineligibility or failure to meet submission requirements.
+
+===== PAGE 15 =====
+COMPANY PROFILE 15
+4. EVALUATION TEAMS
+Strategic Value: Scoring Output:
+By conducting early stage filtering, this team enables evaluators This phase is non-scored; applications are evaluated solely to
+focus exclusively on credible, complete, and well-prepared determine whether they meet the minimum technical threshold
+submission, thereby safeguarding the quality, consistency, and required for advancement. No numerical scores or points are
+competitiveness of the award process. assigned at this stage. This stage.
+i. Each application results in one of the following outcomes:
+ii. Technical Evaluation Committee Passed: deemed technically viable and eligible to proceed to the
+Composition: experts from ModEE innovation evaluation phase.
+Mandate: Failed: identified as having critical technical deficiencies and
+The Technical evaluation Committee is responsible for assessing disqualified from further consideration.
+the digital architecture, usability, and functional performance of
+each eligible application, based on predefined technical criteria Strategic Value:
+and evaluation benchmarks. This step ensures that shortlisted applications are not only concep-
+tually strong but also technically sound and functionally viable,
+Evaluation Dimensions: thereby laying a solid foundation for potential real world
+Applications are evaluated across multiple technical dimensions, implementation and scaling.
+including core functionality, system performance and stability,
+user interface and experience (UI/UX) design, security and data
+protection measures, and overall readiness for deployment on
+mobile platforms. These criteria ensure that each submission
+aligns with established technical standards and is suitable for
+real-world implementation and testing.
+
+===== PAGE 16 =====
+16 AWARD MANUAL
+4. EVALUATION TEAMS
+iii. Innovation & Entrepreneurship Evaluation Committee
+Composition: innovation leaders, entrepreneurship mentors, and sector-specialized matter experts.
+This committee leads the most comprehensive and qualitative phase of the evaluation, process, focusing on the originality, societal relevance, and
+transformative potential of each student led project.
+Responsibilities:
+Level of Innovation Alignment with Government Priorities
+Does the project present a novel, original Does the solution address a critical need in public
+approach to solving a well-defined public services or citizen engagement in alignment with
+01 02
+challenge? national digital transformation and development
+priorities?
+Scalability & Sustainability Entrepreneurial Readiness
+Is the solution designed to scale effectively, adapt Does the project demonstrate the potential to evolve
+to evolving needs, and maintain long term into a viable a startup or sustainable business model?
+03 04
+operational viability?
+Sector-Specific Evaluation Pitching Day Assessment
+Submissions are assessed by experts with deep Shortlisted teams will deliver a live presentation to the
+knowledge in the relevant domain (e.g., healthcare, committee. Presentations are evaluated on clarity of
+05 06
+smart cities, education, and transportation), ensuring messaging, team collaboration, demonstrated impact
+accurate, contextual evaluation, and fairness. and strategic vision.
+
+===== PAGE 17 =====
+AWARD MANUAL 17
+4. EVALUATION TEAMS
+Scoring Structure:
+This phase consists of a structured, qualitative evaluation of each submission, based on clearly defined scoring dimensions,
+such as:
+Innovation and Public sector Relevance Feasibility, scalability, Team collaboration
+originality and impact and sustainability and clarity of vision
+Evaluators follow a standardized scoring framework to ensure objectivity, transparency, and alignment with award
+strategic goals.
+Outcome:
+The results of this evaluation phase serve as the basis for shortlisting the highest performing teams. These outcomes are
+submitted to the CPA Steering Committee for final review, validation and endorsement. Based on both the evaluation
+findings and strategic priorities, the Committee confirms the winning teams, determines award allocations, and identifies
+exceptional candidates’ further support opportunities, including potential incubation through the INNSAN Sandbox or
+similar programs. .
+
+===== PAGE 18 =====
+18 AWARD MANUAL
+5. SECTOR-ALIGNED FOCAL POINTS
+Appointment
+Sector-aligned focal points are nominated by their respective government entities and selected for their demonstrated subject-matter expertise and
+deep understanding of national services priorities within a specific domain (e.g., health, education, environment, transport).
+Key Functions and Core Responsibilities
+Advice on sector-specific challenges and national policy needs to ensure student innovations align student innovations with national development
+goals real-world priorities.
+Participate in the evaluation process by providing contextual analysis and domain specific insights.
+Offer strategic recommendations To the Steering Committee confirming that shortlisted projects are feasible and implementable within government
+systems.
+Facilitate communication and Coordination between line ministries and entities and the award team for consultation, technical reviews, and follow up
+support.
+Advice on sector-specific challenges and Participate in the evaluation process by Offer strategic recommendations To the Facilitate communication and
+national policy needs to ensure student providing contextual analysis and Steering Committee confirming that Coordination between line ministries
+innovations align student innovations domain specific insights. shortlisted projects are feasible and and entities and the award team for
+with national development goals implementable within government consultation, technical reviews, and
+real-world priorities. systems. follow up support.
+
+===== PAGE 19 =====
+AWARD MANUAL 19
+6. UNIVERSITY AND COMMUNITY COLLEGES
+COORDINATORS
+Appointment •
+Coordinators are nominated by participating public and private
+university and community Colleges coordinators and are typically
+selected from innovation centers, IT departments, or academic
+leadership. Each nomination must be formally endorsed by the
+institution’s administration.
+Key Functions and Core Responsibilities
+▪ Promote awareness of the award and encourage inclusive
+participation from students across all academic disciplines.
+▪ Organize and facilitate on-campus activities, including
+awareness sessions, mentoring workshops, and hands-on
+Facilitate communication and application support clinics.
+Coordination between line ministries ▪ Serve as a primary point of contact for student teams—offering
+and entities and the award team for guidance throughout the registration, submission, and
+consultation, technical reviews, and
+development phases.
+follow up support.
+▪ Collaborate with the CPA Management Team to communicate
+student needs, deliver institutional feedback, and ensure
+alignment with award procedures and timelines.
+
+===== PAGE 20 =====
+20 AWARD MANUAL
+CPA DIGITAL PLATFORM
+As part of the ongoing evolution of the Crown Prince Award for Best Government Services Application, a completely redesigned digital platform was
+designed and launched for the 2025 edition. This transformation reflects strategic commitment to delivering a seamless, modern, and inclusive
+digital experience—one that mirrors the spirit of innovation we ask of our participants.
+The new platform is not a simple update;—it represents a ground-up redevelopment, purpose-built to address the practical needs of students,
+administrators, and evaluators alike. It now serves as the central digital infrastructure of the award, supporting end-to-end management with
+enhanced usability, transparency, and operational efficiency.
+this is more than a platform upgrade—it’s a digital reinvention, designed to provide a smarter, more accessible, and high-performance
+environment for every participant, stakeholder, and institutional partner.
+
+===== PAGE 21 =====
+AWARD MANUAL 21
+CPA DIGITAL PLATFORM
+What’s new in 2025:
+Redesigned platform architecture Mobile-first user experience, Streamlined registration process
+for enhanced speed, security, and optimized for access across all with real-time validation and fewer
+scalability device steps
+Smart Dynamic forms that adapt Pre-submission checker to identify Integrated notifications system for
+based on team structure and and resolve technical issues before deadlines reminders, submission
+selected sector final submission confirmation, and evaluation
+updates
+This overhaul establishes the CPA platform as a national benchmark for student-centric innovation ecosystems one that —reliable, inclusive, and
+empowering.
+Designed with accessibility at its core, the participant interface offers full bilingual support (Arabic and English), real-time help prompts, and ensures
+a seamless across devices.
+the new CPA Digital Platform is more than a tool it is a reflection our values and vision. By emphasizing usability, transparency, and adaptability, it
+strengthens our mission: to enable youth to innovate freely, submit with confidence, and compete fairly—while equipping them for leadership in
+Jordan’s digital future.
+
+===== PAGE 22 =====
+22 AWARD MANUAL
+AWARD CATEGORIES & RECOGNITION PATHWAYS
+The Crown Prince Award for Best Government Services Application invites ambitious, innovative, and solution- driven students from public and
+private Jordanian universities and community colleges to submit ideas that transform public service delivery through mobile technology.
+Unlike traditional competitions that limit participation to specific themes, this award takes a broad, and inclusive approach— empowering students
+to propose innovations across the entire spectrum of government services. Whether you're solving issues in healthcare, transportation, education,
+environment, or civic services, your innovation is eligible and encouraged.
+Your app doesn’t need to fit into a predefined box—it simply needs to address a meaningful challenge in how citizens connect with and experience
+government services.
+Recognition for the Top 10 Teams
+Each year, 10 exceptional teams are selected as finalists based on their evaluation score and demonstrated innovation potential.
+These teams represent a diverse range of sectors, challenges and Innovative solutions.
+Track 1: Financial Award & Official Recognition (Top 5 Teams)
+The top five scoring teams receive a monetary award and an official certificate of excellence issued by the Ministry of Digital Economy and Entrepre-
+neurship (MoDEE), and The Crown Prince Foundation (CPF).
+Award Distrbution:
+▪ The first %25 of the award is disbursed as an upfront cash payment, while the remaining %75 is released in stages based on verified project progress.
+▪ Award funds are distributed across agreed milestones (%25 ,%20 ,%30), according to a detailed plan established between each winning team and MoDEE.
+▪ MoDEE provides ongoing guidance and technical oversight to support winners in meeting their milestones and maximize project impact.
+This phased funding ensures that award resources directly support the development and potential implementation of winning applications,
+encouraging continuity, accountability, and measurable real-world outcomes.
+
+===== PAGE 23 =====
+AWARD MANUAL 23
+AWARD CATEGORIES & RECOGNITION PATHWAYS
+Track 2: Integration into the INNSAN Sandbox (Next 5 Teams)
+The next five winning teams are invited to join the INNSAN
+Sandbox; a strategic initiative designed to nurture promising
+solutions through mentorship, testing, validation, and pilot
+implementation support.
+INNSAN Sandbox: From Idea to Impact
+The INNSAN Sandbox, led by MoDEE, provides a safe, controlled
+testing environment specifically for digital applications related to
+government services.
+It offers a real-world experimentation space for civic technology
+innovation.
+Its core objectives are to:
+▪ Validate new applications and service models designed for public
+service delivery
+▪ Facilitate partnerships between innovators and government
+entities
+▪ Accelerate the pilot testing and implementation of solutions
+within the government service channels
+Whether you're developing the next breakthrough application or
+taking the first step with your idea, this Award offers more than
+recognition—it provides a structured pathway for growth, safe
+testing, and real-world contribution.
+
+===== PAGE 24 =====
+24 AWARD MANUAL
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+The evaluation process for the Crown Prince Award for Best Government Services Application is designed to uphold the highest standards of
+transparency, structure, and merit-based review. It reflects the Award’s core values: innovation, fairness, accountability, and a strong commit-
+ment to improving the quality of life for Jordanian citizens through impactful digital solutions.
+Each submission is carefully reviewed through multiple distinct phases, with each phase focused on assessing a specific aspect of your
+application—from eligibility and technical readiness to innovation, relevance, real-world potential. The process ensures that every team is
+evaluated based on:
+▪ The quality and viability of their app,
+▪ The creativity and societal relevance of their idea,
+▪ Their ability to collaborate, communicate, and deliver meaningful results.
+This multi-stage evaluation process is not just about selecting winners—it's about identifying and nurturing promising ideas that can help
+shape the future of digital public services in Jordan.
+This section provides a step-by-step breakdown of the complete evaluation journey—from the moment you submit your application on the CPA
+Digital Platform to the final announcement of winning teams.
+Step 1: Submission on the CPA Digital Platform
+Once a student team completes their application and uploads their mobile app, the submission is securely logged in the CPA Digital Platform
+database.
+
+===== PAGE 25 =====
+AWARD MANUAL 25
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+Upon submission:
+▪ The system automatically verifies the completeness of all required fields and attachments.
+▪ A confirmation email is sent to the team’s primary contact, including a unique participation ID.
+▪ The application then enters the initial queue for administrative screening.
+Important: Submissions are locked after final confirmation. Teams cannot make edits after submission without written authorization from the
+award administrators.
+Step 2: Initial Screening (Pass/Fail)
+Purpose: To confirm eligibility and verify the basic completeness of each submission.
+Handled by:
+The Initial Screening Team, composed of trained administrators from the Ministry of Digital Economy and Entrepreneurship (MoDEE).
+What is checked?
+Team eligibility Completion of required App accessibility Confirmation of student
+(student status, enrollment date, Documents and forms (valid .apk file or TestFlight access enrollment status as of the
+team size) (all fields filled, no missing link provided) official launch date of the
+information) Award cycle
+
+===== PAGE 26 =====
+26 AWARD MANUAL
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+Outcomes:
+▪ Pass: Application is marked as eligible and forwarded to the technical review queue.
+▪ Fail: Application is flagged as ineligible or incomplete, and the team is notified accordingly.
+Applications that fail the initial screening are not advanced for further. Review. Common reasons for disqualification include missing application files, incomplete forms,
+or team members graduating before the Award’s official launch date.
+Step 3: Technical Evaluation (Pass/Fail)
+Purpose: To determine whether the submitted application functions as intended and meets the meets minimum usability standards.
+Handled by:
+The Technical Evaluation Committee, composed of IT experts, UX/UI reviewers, and mobile platform testers from the ministry of Digital economy
+and Entrepreneurship.
+Tip: test your app thoroughly before submitting. Have users try it, gather feedback. Fix any bugs and ensure smooth navigation.
+Evaluation Criteria:
+At this stage, the evaluation will focus on key technical dimensions:
+Basic functionality Stability Usability Compatibility Testability
+(the application opens and (no crashes or critical bugs) (intuitive user flow and (runs smooth with current (the evaluation team can easily
+performs its core tasks) accessible interface) Android and iOS systems) access and interact with all requires
+features).
+
+===== PAGE 27 =====
+AWARD MANUAL 27
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+Outcomes:
+▪ Pass: The application meets all minimum technical requirements and progresses to the innovation evaluation phase.
+▪ Fail: Applications that are non-functional, untestable, or critically flawed are excluded from further evaluation.
+This step does not judge creativity or impact, its sole purpose is to ensure each shortlisted application is operational, accessible, and ready for real-world
+evaluation.
+Step 4: Innovation & Entrepreneurship Evaluation
+Purpose: To assess the value proposition, Innovation, feasibility, and potential societal impact of the application.
+Handled by:
+The Innovation & Entrepreneurship Evaluation Committee, which includes:
+Sectoral domain specialists
+aligned with the application’s
+Innovation experts Public sector advisors Startup mentors
+sector (e.g., health, education,
+transport)
+This phase includes two integrated sub-stages:
+4.1 Individual Evaluation
+▪ Each qualified application is independently reviewed by multiple evaluators using a standardized unified evaluation matrix.
+▪ Each evaluator submits their assessment separately. Applications with the highest combined scores are then shortlisted for the next stage.
+▪ Each application is reviewed by multiple evaluators to minimize bias and ensure balanced fair judgment.
+
+===== PAGE 28 =====
+28 AWARD MANUAL
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+4.2 Group Assessment and Shortlisting
+Following the individual scoring, a group assessment session is held to deliber- EVALUATORS
+ate on the top-ranked applications. This step is essential for finalizing the list of
+SHOULD CONSIDER:
+shortlisted finalists who will advance to Pitching Day.
+Group Composition: ▪ Does the idea offer a new perspective
+or approach to a known government
+▪ Members of the Entrepreneurship & Innovation Evaluation commitee
+challenge?
+▪ The assigned sectoral focal point (a subject-matter representative from the
+relevant ministry or public entity) ▪ Are there innovative features or
+This group deliberation ensures that the selected finalists reflect both strong functions not commonly found in
+innovation potential and alignment with sector-specific national priorities, similar apps?
+guaranteeing that Pitching Day features only the most promising and impactful
+solutions. ▪ Is the technology used in an
+unexpected or unique way?
+How applications are scored: ▪ Does the app inspire a rethinking of
+Using a standardized evaluation framework, reviewers assess each application how a public service could be delivered
+across key qualitative dimensions, including: or experienced?
+1. Level of Innovation
+Maximum Score: 30
+This criterion assesses how Innovative, original, and forward-thinking the
+solution is in addressing public service needs. Innovation may be demonstrated
+through a unique technical approach, a novel use of emerging technologies, or
+a an inventive way of solving a known challenge in government service delivery
+or citizen engagement.
+
+===== PAGE 29 =====
+AWARD MANUAL 29
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+Scoring Guidelines:
+Score Range Evaluation Description
+0-7 The solution closely resembles existing applications. It lacks innovative features or new thinking and
+appears to replicate existing tools without significant improvement or originality.
+8-19 The app combines existing ideas in a new way or demonstrates a moderately innovative solution to a
+known issue. It shows some originality but still follows conventional approaches.
+20-30 The app is highly innovative, clearly presenting a new way to address a service challenge. It introduces a
+new concept, design logic, or functionality that represents a breakthrough or transformative idea.
+2. Impact
+Maximum Score: 20
+This criterion assesses how effectively the application addresses a real-world public service challenge and the extent of its potential benefit. Impact is
+measured by the app’s capacity to solve meaningful problems, improve access, reduce effort or cost, and enhance the overall user experience or
+citizens and government stakeholders.
+Evaluators should consider:
+▪ Does the solution directly address a specific government or citizen need?
+▪ Can it improve efficiency, accessibility, or the quality of service delivery?
+▪ Is the scale of potential impact local, national, or sector-wide?
+▪ Are the benefits measurable, such as time saved, cost reductions, or improved citizen satisfaction
+
+===== PAGE 30 =====
+30 AWARD MANUAL
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+Scoring Guidelines:
+Score Range Evaluation Description
+0-7 The application demonstrates minimal impact. It addresses a narrow or poorly defined problem with
+limited relevance or tangible benefit to public services or citizens.
+8-12 The application shows moderate impact. It responds to a clearly defined challenge and offers
+measurable benefits, but its reach or effect may be limited in scale or scope.
+13-20 The application addresses a significant national or sectoral issue and demonstrates strong potential to
+improve services, streamline processes, or enhance citizen engagement at scale.
+3. Scalability & Sustainability
+Maximum Score: 20
+This criterion evaluates whether the application is designed to scale, adapt, and and remain viable beyond the competition cycle. A truly scalable and
+sustainable solution is built to handle growth, increased user demand, and future iterations without requiring complete redevelopment.
+Evaluators should consider:
+▪ Is the technical foundation adaptable to new features, i higher user volumes, or integration with other platforms?
+▪ Has the team addressed long-term maintenance, updates, and version control?
+▪ Are the application components modular, reusable and easily extendable?
+▪ Is there a clear plan or concept for ongoing support, adoption, or broader rollout?
+
+===== PAGE 31 =====
+AWARD MANUAL 31
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+Scoring Guidelines:
+Score Range Evaluation Description
+0-7 The application lacks a clear path for growth or long-term sustainability. It may rely on rigid, hard-coded
+elements, have no roadmap for future development, or be limited to a single-use scenario.
+8-12 The application shows some scalability and sustainability. It includes flexible components and a general
+plan for expansion, but may face limitations under broader usage or increased demand.
+The application demonstrates a strong technical and operational foundation for long-term success. It is
+13-20
+modular, well-documented, and adaptable, with realistic, well-considered plans for deployment, growth,
+and ongoing maintenance.
+4. Functionality
+Maximum Score: 15
+This criterion measures how reliably and effectively the application performs its intended tasks. It covers overall system usability, responsiveness, error
+handling, and the completeness of the user journey.
+Evaluators should consider:
+▪ Can users easily access and navigate the app’s primary features?
+▪ Are the features stable and functioning as described?
+▪ Do essential functions—such as login, search, or submission, operate correctly and consistently?
+▪ Are there any major bugs or crashes that significantly disrupt usability?
+
+===== PAGE 32 =====
+32 AWARD MANUAL
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+Scoring Guidelines:
+Score Range Evaluation Description
+0-5 The app does not function as intended. Key features are broken, inaccessible, or crash frequently
+resulting in a severely compromised user experience.
+6-10 The application is partially functional. Core features are present but inconsistent or unstable. Usability is
+affected, but the app remains partially navigable.
+11-15 The application is fully functional, stable, and responsive. All intended features work correctly, with no
+critical bugs or usability barriers.
+5. Team Collaboration
+Maximum Score: 15
+This criterion measures how effectively the team members collaborated throughout the development process. A well-coordinated team is more likely
+to produce an integrated, coherent, and polished solution.
+Evaluators should consider:
+▪ Was the workload distributed fairly among all team members?
+▪ Do the presentation materials and final deliverables reflect a collective effort?
+▪ Did the team demonstrate effective communication, problem-solving, and planning?
+▪ Is the teamwork evident in the consistency and completeness of the final product?
+
+===== PAGE 33 =====
+AWARD MANUAL 33
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+Scoring Guidelines:
+Score Range Evaluation Description
+0-5 Weak collaboration. The team showed a lack of cohesion, unclear roles, or signs of conflict or
+miscommunication that negatively affected the project outcome.
+6-10 Moderate collaboration. Roles were generally defined and the app was completed successfully, but there
+is clear room for improvement in team coordination and execution.
+11-15 Strong collaboration. The team worked in sync, divided tasks effectively, and demonstrated joint
+ownership, clear communication, and strong teamwork throughout development and presentation.
+This ensures that shortlisted applications are not only innovative and well-developed, but also strategically aligned with the vision and priorities of
+Jordan’s digital government ecosystem.
+
+===== PAGE 34 =====
+34 AWARD MANUAL
+EVALUATION WORKFLOW & CRITERIA
+From Submission to Selection: How Your Application Is Judged
+Step 5: Pitching Day Assessment
+Purpose: To validate shortlisted applications in a live setting and enable direct interaction with the student’s teams.
+Handled by
+A joint evaluation panel comprising:
+▪ Senior members of the CPA Steering Committee
+▪ Sectoral focal points from relevant government entities aligned with the project’s sector (e.g., Ministry of Environment, Ministry of Health)
+Pitching Day Flow:
+Each Finalist teams deliver a 10 minute live pitch, Structured as 7 minutes for the pitch and 3 minutes for questions and answers. The
+presentation should cover:
+▪ The public service challenge being addressed
+▪ The application’s core features and technical approach
+▪ The expected impact on government services and citizen engagement
+▪ Relevant team details, such as team background, expertise, and roles
+▪ Any contact or coordination with relevant government focal points, including whether the team engaged the focal entity and what feedback
+or input was received
+▪ How the project could generate revenue or support a sustainable financial stream
+▪ How the project could generate revenue or support a sustainable financial stream
+
+===== PAGE 35 =====
+AAWWAARRDD MMAANNUUAALL 35
+EEVVAALLUUAATTIIOONN WWOORRKKFFLLOOWW && CCRRIITTEERRIIAA
+FFrroomm SSuubbmmiissssiioonn ttoo SSeelleeccttiioonn:: HHooww YYoouurr AApppplliiccaattiioonn IIss JJuuddggeedd
+PPaanneelliissttss eennggaaggee ddiirreeccttllyy wwiitthh tteeaammss dduurriinngg tthhee QQ&&AA,, ffooccuussiinngg oonn::
+TThhee tteeaamm’’ss ddeepptthh ooff uunnddeerrssttaannddiinngg ooff tthhee TThhee ffeeaassiibbiilliittyy ooff iimmpplleemmeennttaattiioonn wwiitthhiinn
+pprroobblleemm aanndd ssoolluuttiioonn ccoonntteexxtt ggoovveerrnnmmeenntt ssyysstteemmss
+0011 0022
+TThhee ssoolluuttiioonn’’ss ssttrraatteeggiicc aalliiggnnmmeenntt wwiitthh TThhee tteeaamm’’ss ccaappaacciittyy,, ccoollllaabboorraattiioonn aapppprrooaacchh,,
+0033 nnaattiioonnaall pprriioorriittiieess 0044 aanndd ppootteennttiiaall ttoo ssccaallee
+TThhee aapppplliiccaattiioonn’’ss tteecchhnniiccaall ccllaarriittyy,, uussaabbiilliittyy,, TThhee pprroojjeecctt’’ss fifinnaanncciiaall ssuussttaaiinnaabbiilliittyy aanndd
+RReessiilliieennccee ppootteennttiiaall ffoorr rreeaall--wwoorrlldd iimmppaacctt
+0055 0066
+
+===== PAGE 36 =====
+36 AWARD MANUAL
+EVALUATION WORKFLOW & CRITERIA
+Pitching Day Objectives
+The Pitching Day phase aims to:
+Validate the quality and readiness of Validate the quality and readiness of Validate the quality and readiness of
+each shortlisted application through a each shortlisted application through a each shortlisted application through a
+live presentation live presentation live presentation
+Validate the quality and readiness of Validate the quality and readiness of
+each shortlisted application through a each shortlisted application through a
+live presentation live presentation
+Step 6: Final Validation
+Handled by:
+The CPA Steering Committee
+Committee Responsibilities:
+▪ Review all evaluation scores, Pitching Day feedback, and overall alignment with the Award’s strategic goals.
+▪ Confirm and finalize the Top 10 teams selected for recognition.
+▪ Determine the allocation for each recognition track:
+- The Top 5 winning teams to receive financial awards and official Certificates of Excellence issued by MoDEE
+- The next 5 winning teams to be integrated into the INNSAN Sandbox for further development support and piloting opportunities.
+
+===== PAGE 37 =====
+AWARD MANUAL 37
+AWARD TIMELINE
+To help teams plan and participate confidently, the Award follows a clear, structured timeline. All key phases—from the launch date to the
+Awards winners announcement—are aligned with specific weeks in the academic calendar and communicated through official channels.
+Exact dates for each cycle are published annually on the CPA Digital Platform..
+Indicative Timeline for the Award Cycle
+Award Launch Submission Deadline Initial Screening
+Official announcement and Awareness Call for Applications All forms and application MoDEE reviews
+launch of the awareness Online and on-campus Platform opens for student files must be submitted submissions for eligibility
+phase promotional activities team submissions through the platform and completeness
+Oct 2025 – Nov 2025 Oct 2025 - Mar 2026 Jan 2026 Mar 2026 Within 1 week
+of deadline
+Final Validation Innovation Technical Review
+& Confirmation Pitching Day Evaluation
+Applications tested for
+Steering Committee reviews Live finalist presentations Individual scoring functionality, usability,
+and approves final winners to evaluation panel + group shortlisting and access
+Crown Prince Award
+For Best Government Service Application Within 1 week ~1 week after Approximately 2–1 weeks
+of Pitching Day evaluation 3 weeks
+Award Ceremony
+Winners announced
+and recognized
+Sep, 2026
+This timeline ensures that student teams follow a clear structured path from idea to impact. Each phase is intentionally paced to allow time for
+learning, preparation, and reflection—maximizing both participation and submission quality.
+
+===== PAGE 38 =====
+38 AWARD MANUAL
+PARTICIPATION GUIDELINES & TIPS
+To ensure a smooth experience and protect your team’s effort and ideas, please follow these key guidelines when participating in the Crown Prince
+Award for Best Government Services Application. These tips highlight what you must know and do to stay eligible, fair, and competitive at every
+stage.
+1. Stay Eligible:
+▪ Make sure all team members meet the official Eligibility Criteria described in this guide at the time you submit your application.
+▪ Only students who are currently enrolled in an accredited public or private Jordanian university or community college (as of the Award launch date) can
+participate.
+▪ Never provide false or misleading information — any team found doing so will be disqualified immediately.
+2. Keep It Original
+▪ Your application must be the team’s own original work — do not copy or reuse code without proper credit.
+▪ The mobile app must be developed entirely by the student team — hiring external developers or contractors is not allowed.
+▪ Using open-source libraries or frameworks is fine, as long as you give proper credit and avoid plagiarism.
+▪ Make sure your app works on modern mobile operating systems — outdated or unsupported versions won’t be accepted.
+▪ Keep your submission accessible and functional during the entire evaluation period. Teams are responsible for making sure the app remains live and
+testable.
+3. One Final Submission
+▪ Once you submit your application, it’s final — you can’t change or edit it after the deadline.
+▪ The only exception is if you get written permission from the Award administrators to fix a technical error.
+
+===== PAGE 39 =====
+AWARD MANUAL 39
+PARTICIPATION GUIDELINES & TIPS
+4. Important to Remember
+▪ All decisions made by the Evaluation Committees and the CPA Steering Committee are final and cannot be challenged.
+▪ All applications will be evaluated strictly according to the criteria and process outlined in this manual.
+▪ The Award team reserves the right to adjust or withhold recognition if serious issues arise, like misconduct or ineligibility.
+these tips help protect your effort and ideas — and ensure every team has a fair, honest chance to shine. Follow them carefully, and you’ll stay focused on
+what matters: solving real problems with innovative digital solutions!
+
+===== PAGE 40 =====
+40 AWARD MANUAL
+OUR PARTNERS:
+From Submission to Selection: How Your Application Is Judged
+The HRH Crown Prince Best Government Application Award is made possible through the collaboration and support of several esteemed
+partners. These partnerships are crucial in fostering innovation, supporting youth, and driving the development of exceptional government
+mobile applications. We are proud to work alongside the following organizations:
+Crown prince Foundation (CPF):
+The award is organized annually by the Ministry of Digital Economy and Entrepreneurship in cooperation and partnership with the Crown
+Prince Foundation. The Crown Prince Foundation contributes to the development and review of annual plans, promotes the award to enhance
+its reach to the targeted youth categories, and works with specialists to review the submitted projects and determine the winning teams. Thus,
+the Crown Prince Foundation is the main partner in connecting with young people and stimulating a culture of innovation and
+entrepreneurship among them, which aligns with the economic participation path that the foundation's strategy is concerned with.
+Public and private Universities and colleges:
+The universities are the key participants and collaborators in fostering student innovation and competition. By calling for applications and
+organizing internal sessions with the students, universities actively encourage participation in the award. These sessions aim to motivate
+students, provide guidance on the application process, and offer support in developing innovative solutions.
+Private sector:
+Private sector representatives are actively involved in the award's committees and evaluation process. Their participation ensures that the
+evaluation criteria align with industry standards and that the selected solutions have practical, real-world applications. These representatives
+bring valuable insights and expertise to the steering and evaluation committees, helping to assess the technical feasibility, innovation potential,
+and market readiness of the applications.
+
+===== PAGE 41 =====
+Crown Prince Award
+For Best Government Service Application
+
+===== PAGE 42 =====
+CROWN PRINCE AWARD
+FOR BEST GOVERNMENT SERVICES APPLICATION
+MANUAL – 5TH EDITION
+2025

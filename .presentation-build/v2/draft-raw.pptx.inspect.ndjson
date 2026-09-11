@@ -1,0 +1,246 @@
+{"kind":"deck","id":"pr/1h7y7n","name":"Deck"}
+{"kind":"layout","layoutId":"daec4184-e0e2-4120-9977-ce650efdd434","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"11e8716b-ef15-4c85-9ba3-f879747c2a95","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/v7mff2","slide":1,"title":"مُرشِدي","textShapes":5}
+{"kind":"textbox","id":"sh/o3qxsbat","slide":1,"name":"مُرشِدي","text":"مُرشِدي","textPreview":"مُرشِدي","textChars":7,"textLines":1,"bbox":[650,197.8,555,140.4]}
+{"kind":"textbox","id":"sh/b61g3qtk","slide":1,"name":"قرار جامعي أوضح","text":"قرار جامعي أوضح","textPreview":"قرار جامعي أوضح","textChars":15,"textLines":1,"bbox":[645,335.5,560,69]}
+{"kind":"textbox","id":"sh/q5sfulsz","slide":1,"name":"Vcoders","text":"Vcoders","textPreview":"Vcoders","textChars":7,"textLines":1,"bbox":[765,422.2,440,53.6]}
+{"kind":"textbox","id":"sh/d8jy5gba","slide":1,"name":"جائزة ولي العهد لأفضل تطبيق خدمات حكومية","text":"جائزة ولي العهد لأفضل تطبيق خدمات حكومية","textPreview":"جائزة ولي العهد لأفضل تطبيق خدمات حكومية","textChars":40,"textLines":1,"bbox":[640,581,565,42]}
+{"kind":"textbox","id":"sh/c7axwba5","slide":1,"name":"الدورة الخامسة  •  2026","text":"الدورة الخامسة  •  2026","textPreview":"الدورة الخامسة  •  2026","textChars":23,"textLines":1,"bbox":[780,623.4,425,38.2]}
+{"kind":"image","id":"im/3mdcz6dw","slide":1,"name":"","alt":"رسم مفاهيمي لكتاب ومسار تعليمي","bbox":[0,0,1280,720]}
+{"kind":"image","id":"im/onmdsreh","slide":1,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1080,60,124,124]}
+{"kind":"notes","id":"nt/v7mff2","slide":1,"text":"0:00 إلى 0:20 (20 ثانية)\n\nصباح الخير. نحن فريق Vcoders، ونقدّم مُرشِدي: منصّة تساعد الطالب وأسرته على اتخاذ قرار جامعي أوضح. نبدأ من السؤال الذي يأتي بعد التوجيهي مباشرة: شو أدرس؟ ونحوّله من بحث مشتّت إلى قرار يجمع الملاءمة والقبول والكلفة والسوق في رحلة واحدة.\n\nالمصادر: ملفات المشروع الأصلية؛ اسم الفريق Vcoders حسب توجيه المستخدم.\n"}
+{"kind":"slide","id":"sl/0wunbt","slide":2,"title":"قرار واحد داخل دليل يضم 607 عرض برنامج","textShapes":16}
+{"kind":"textbox","id":"sh/5cre9kra","slide":2,"name":"قرار واحد داخل دليل يضم 607 عرض برنامج","text":"قرار واحد داخل دليل يضم 607 عرض برنامج","textPreview":"قرار واحد داخل دليل يضم 607 عرض برنامج","textChars":38,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/krid0fq5","slide":2,"name":"02","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"shape","id":"sh/vmpw3q98","slide":2,"bbox":[650,166,555,342]}
+{"kind":"shape","id":"sh/algvul8n","slide":2,"bbox":[960,187,220,40]}
+{"kind":"textbox","id":"sh/xore50re","slide":2,"name":"لحظة الطالب","text":"لحظة الطالب","textPreview":"لحظة الطالب","textChars":11,"textLines":1,"bbox":[970,189.9,200,31.2]}
+{"kind":"textbox","id":"sh/wnydwvqt","slide":2,"name":"بعد التوجيهي يريد جوابًا واضحًا:","text":"بعد التوجيهي يريد جوابًا واضحًا:","textPreview":"بعد التوجيهي يريد جوابًا واضحًا:","textChars":32,"textLines":1,"bbox":[680,238,495,48]}
+{"kind":"shape","id":"sh/fitwfu9s","slide":2,"bbox":[681,298,494,54]}
+{"kind":"textbox","id":"sh/uhkv6p87","slide":2,"name":"يناسبني؟","text":"يناسبني؟","textPreview":"يناسبني؟","textChars":8,"textLines":1,"bbox":[930,304,225,39]}
+{"kind":"textbox","id":"sh/k76loz6p","slide":2,"name":"الميول والاهتمامات","text":"الميول والاهتمامات","textPreview":"الميول والاهتمامات","textChars":18,"textLines":1,"bbox":[701,304,220,39]}
+{"kind":"shape","id":"sh/l8f2h47a","slide":2,"bbox":[681,364,494,54]}
+{"kind":"textbox","id":"sh/y5o3mpoj","slide":2,"name":"أستطيع التقديم؟","text":"أستطيع التقديم؟","textPreview":"أستطيع التقديم؟","textChars":15,"textLines":1,"bbox":[930,370,225,39]}
+{"kind":"textbox","id":"sh/j6xkfup4","slide":2,"name":"الشروط والقبول","text":"الشروط والقبول","textPreview":"الشروط والقبول","textChars":14,"textLines":1,"bbox":[701,370,220,39]}
+{"kind":"shape","id":"sh/w3mlkz6t","slide":2,"bbox":[681,430,494,54]}
+{"kind":"textbox","id":"sh/x4f2d47e","slide":2,"name":"تستطيع أسرتي تحمّله؟","text":"تستطيع أسرتي تحمّله؟","textPreview":"تستطيع أسرتي تحمّله؟","textChars":20,"textLines":1,"bbox":[930,436,225,39]}
+{"kind":"textbox","id":"sh/a143ipon","slide":2,"name":"الرسوم والكلفة","text":"الرسوم والكلفة","textPreview":"الرسوم والكلفة","textChars":14,"textLines":1,"bbox":[701,436,220,39]}
+{"kind":"shape","id":"sh/b2dkbup8","slide":2,"bbox":[60,166,535,157]}
+{"kind":"textbox","id":"sh/ozmlgf6h","slide":2,"name":"116,366","text":"116,366","textPreview":"116,366","textChars":7,"textLines":1,"bbox":[85,176.1,485,85.8]}
+{"kind":"textbox","id":"sh/90v29k72","slide":2,"name":"ناجحًا في التوجيهي 2026","text":"ناجحًا في التوجيهي 2026","textPreview":"ناجحًا في التوجيهي 2026","textChars":23,"textLines":1,"bbox":[85,257,485,43]}
+{"kind":"shape","id":"sh/pwnidgzq","slide":2,"bbox":[60,340,535,168]}
+{"kind":"textbox","id":"sh/ove14bil","slide":2,"name":"607","text":"607","textPreview":"607","textChars":3,"textLines":1,"bbox":[85,346,485,104]}
+{"kind":"textbox","id":"sh/3u50b6h0","slide":2,"name":"عروض برامج بكالوريوس","text":"عروض برامج بكالوريوس","textPreview":"عروض برامج بكالوريوس","textChars":20,"textLines":1,"bbox":[85,438,485,44]}
+{"kind":"shape","id":"sh/2twj210f","slide":2,"bbox":[70,536,1135,70]}
+{"kind":"textbox","id":"sh/h83i9wzu","slide":2,"name":"المشكلة: القبول والرسوم والكلفة والسوق لا تجت","text":"المشكلة: القبول والرسوم والكلفة والسوق لا تجتمع حول الطالب في قرار واحد","textPreview":"المشكلة: القبول والرسوم والكلفة والسوق لا تجتمع حول الطالب في قرار واحد","textChars":71,"textLines":1,"bbox":[92,546,1091,50]}
+{"kind":"textbox","id":"sh/g7u10ri9","slide":2,"name":"المصدر: وزارة التربية والتعليم • وحدة تنسيق ا","text":"المصدر: وزارة التربية والتعليم • وحدة تنسيق القبول الموحد، آب 2026","textPreview":"المصدر: وزارة التربية والتعليم • وحدة تنسيق القبول الموحد، آب 2026","textChars":66,"textLines":1,"bbox":[80,626.4,1120,31.2]}
+{"kind":"image","id":"im/nixgri1c","slide":2,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"notes","id":"nt/0wunbt","slide":2,"text":"0:20 إلى 1:00 (40 ثانية)\n\nتخيّل طالبًا أنهى التوجيهي اليوم. يريد جوابًا عن ثلاثة أسئلة: هل التخصص يناسبني؟ هل أستطيع التقديم؟ وهل تستطيع أسرتي تحمّل كلفته؟ في دفعة 2026 وصل 116,366 ناجحًا إلى هذه اللحظة، وينشر القبول الموحد 607 عروض برامج تختلف أهلية الطالب لها حسب الفرع والمعدل. المعلومات موجودة، لكنها موزعة بين القبول والجامعات وإحصاءات العمل؛ فيركّب الطالب والأسرة والمرشد القرار يدويًا. هنا تبدأ المشكلة التي يحلّها مُرشِدي.\n\nالمصادر: وزارة التربية والتعليم عبر وكالة بترا، 10 آب 2026: 116,366 ناجحًا في التوجيهي، ويشمل العدد النظاميين والدراسة الخاصة. وحدة تنسيق القبول الموحد، 13 آب 2026: 607 عروض برامج بكالوريوس للدورة الصيفية 2026/2027؛ عروض برامج وليست تخصصات مهنية فريدة. البطالة متعددة الأسباب، ولا ننسبها لاختيار التخصص وحده.\n"}
+{"kind":"slide","id":"sl/qbfeq2","slide":3,"title":"الحل: من الاهتمام إلى قائمة قصيرة","textShapes":10}
+{"kind":"textbox","id":"sh/q547ehc3","slide":3,"name":"الحل: من الاهتمام إلى قائمة قصيرة","text":"الحل: من الاهتمام إلى قائمة قصيرة","textPreview":"الحل: من الاهتمام إلى قائمة قصيرة","textChars":33,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/r6do7mdo","slide":3,"name":"03","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"shape","id":"sh/1cv6dwvq","slide":3,"bbox":[850,145,355,40]}
+{"kind":"textbox","id":"sh/e947ihcf","slide":3,"name":"نسخة ويب محلية  •  عربي + English","text":"نسخة ويب محلية  •  عربي + English","textPreview":"نسخة ويب محلية  •  عربي + English","textChars":33,"textLines":1,"bbox":[860,147.9,335,31.2]}
+{"kind":"textbox","id":"sh/zadobmd0","slide":3,"name":"1  اكتشف نقطة البداية","text":"1  اكتشف نقطة البداية","textPreview":"1  اكتشف نقطة البداية","textChars":21,"textLines":1,"bbox":[475,205,730,54]}
+{"kind":"textbox","id":"sh/gf2587e1","slide":3,"name":"أسئلة استكشاف ذاتي تبني قائمة أولية","text":"أسئلة استكشاف ذاتي تبني قائمة أولية","textPreview":"أسئلة استكشاف ذاتي تبني قائمة أولية","textChars":35,"textLines":1,"bbox":[475,267,730,70]}
+{"kind":"textbox","id":"sh/hgb6hsvm","slide":3,"name":"2  قارن ما يهم القرار","text":"2  قارن ما يهم القرار","textPreview":"2  قارن ما يهم القرار","textChars":21,"textLines":1,"bbox":[475,333,730,54]}
+{"kind":"textbox","id":"sh/h8v29cf2","slide":3,"name":"قبول ورسوم وكلفة، ثم مؤشرات سوق عامة","text":"قبول ورسوم وكلفة، ثم مؤشرات سوق عامة","textPreview":"قبول ورسوم وكلفة، ثم مؤشرات سوق عامة","textChars":36,"textLines":1,"bbox":[475,395,730,70]}
+{"kind":"textbox","id":"sh/g7m1g7yh","slide":3,"name":"3  ابنِ قائمة مبرّرة","text":"3  ابنِ قائمة مبرّرة","textPreview":"3  ابنِ قائمة مبرّرة","textChars":20,"textLines":1,"bbox":[475,461,730,54]}
+{"kind":"textbox","id":"sh/f6dk72xw","slide":3,"name":"خيارات قصيرة وخطة كلفة وبيانات مؤرخة","text":"خيارات قصيرة وخطة كلفة وبيانات مؤرخة","textPreview":"خيارات قصيرة وخطة كلفة وبيانات مؤرخة","textChars":36,"textLines":1,"bbox":[475,523,730,70]}
+{"kind":"shape","id":"sh/u54jexgb","slide":3,"bbox":[475,583,730,65]}
+{"kind":"textbox","id":"sh/pwf2dcfy","slide":3,"name":"المخرج: قرار يناقشه الطالب مع أسرته والمرشد","text":"المخرج: قرار يناقشه الطالب مع أسرته والمرشد","textPreview":"المخرج: قرار يناقشه الطالب مع أسرته والمرشد","textChars":43,"textLines":1,"bbox":[495,590,690,49]}
+{"kind":"image","id":"im/8vy1kjyl","slide":3,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"image","id":"im/ls7i9ozu","slide":3,"name":"","alt":"لقطة فعلية عالية الدقة من مُرشِدي داخل إطار iPhone Pro","bbox":[8,6,438.67,658]}
+{"kind":"notes","id":"nt/qbfeq2","slide":3,"text":"1:00 إلى 1:32 (32 ثانية)\n\nيجمع مُرشِدي رحلة القرار في ثلاث خطوات. يبدأ الطالب بأسئلة استكشاف ذاتي تبني نقطة انطلاق، ثم يقارن البرامج وفق القبول والرسوم والكلفة، ويطّلع بصورة منفصلة على مؤشرات سوق العمل العامة. بعدها يبني قائمة قصيرة وخطة كلفة مستندة إلى بيانات مؤرخة. هذه شاشة حقيقية من نسخة ويب محلية تعمل بالعربية والإنجليزية. النتيجة ليست توصية مغلقة، بل قرار مبرّر يناقشه الطالب وأسرته والمرشد قبل التقديم.\n\nالمصادر: شاشة فعلية من النسخة المحلية المحدثة للسورس؛ اختبار الميول استكشافي ولا يدعي اعتمادًا نفسيًا.\nصورة شاشة حقيقية من النسخة المحلية المحدثة؛ إطار الهاتف فقط صورة توضيحية مولدة."}
+{"kind":"slide","id":"sl/y5zkfh","slide":4,"title":"لحظة القرار: رقم ومعنى ومصدر","textShapes":11}
+{"kind":"textbox","id":"sh/s7ahojad","slide":4,"name":"لحظة القرار: رقم ومعنى ومصدر","text":"لحظة القرار: رقم ومعنى ومصدر","textPreview":"لحظة القرار: رقم ومعنى ومصدر","textChars":28,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/t8jyhobi","slide":4,"name":"04","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"textbox","id":"sh/fa1gjeto","slide":4,"name":"مقارنة واحدة، ثلاثة أسئلة دقيقة","text":"مقارنة واحدة، ثلاثة أسئلة دقيقة","textPreview":"مقارنة واحدة، ثلاثة أسئلة دقيقة","textChars":31,"textLines":1,"bbox":[465,159.9,740,52.2]}
+{"kind":"shape","id":"sh/gbahsja9","slide":4,"bbox":[475,231,730,82]}
+{"kind":"textbox","id":"sh/hwjylobu","slide":4,"name":"شرط التقديم","text":"شرط التقديم","textPreview":"شرط التقديم","textChars":11,"textLines":1,"bbox":[906,241,270,55]}
+{"kind":"textbox","id":"sh/adofepcz","slide":4,"name":"هل يحق لي التقديم؟","text":"هل يحق لي التقديم؟","textPreview":"هل يحق لي التقديم؟","textChars":18,"textLines":1,"bbox":[500,241,388,55]}
+{"kind":"shape","id":"sh/vexg7utk","slide":4,"bbox":[475,334,730,82]}
+{"kind":"textbox","id":"sh/3e5gvad8","slide":4,"name":"حد تنافسي سابق","text":"حد تنافسي سابق","textPreview":"حد تنافسي سابق","textChars":14,"textLines":1,"bbox":[906,344,270,55]}
+{"kind":"textbox","id":"sh/idwfm5cn","slide":4,"name":"مرجع تاريخي، وليس وعد قبول","text":"مرجع تاريخي، وليس وعد قبول","textPreview":"مرجع تاريخي، وليس وعد قبول","textChars":26,"textLines":1,"bbox":[500,344,388,55]}
+{"kind":"shape","id":"sh/5gnyxkbe","slide":4,"bbox":[475,437,730,82]}
+{"kind":"textbox","id":"sh/4fexofut","slide":4,"name":"رسم رسمي","text":"رسم رسمي","textPreview":"رسم رسمي","textChars":8,"textLines":1,"bbox":[906,447,270,55]}
+{"kind":"textbox","id":"sh/vq5gradc","slide":4,"name":"كم تدفع الأسرة؟ ومن أي سنة؟","text":"كم تدفع الأسرة؟ ومن أي سنة؟","textPreview":"كم تدفع الأسرة؟ ومن أي سنة؟","textChars":27,"textLines":1,"bbox":[500,447,388,55]}
+{"kind":"shape","id":"sh/upcfi5cr","slide":4,"bbox":[475,557,730,67]}
+{"kind":"textbox","id":"sh/hsnyt0v2","slide":4,"name":"قائمة قصيرة يمكن تفسيرها والدفاع عنها","text":"قائمة قصيرة يمكن تفسيرها والدفاع عنها","textPreview":"قائمة قصيرة يمكن تفسيرها والدفاع عنها","textChars":37,"textLines":1,"bbox":[500,565,680,50]}
+{"kind":"textbox","id":"sh/grexkfuh","slide":4,"name":"دليل 2026/2027 • الحدود السابقة معروضة بسنتها","text":"دليل 2026/2027 • الحدود السابقة معروضة بسنتها • تحقق 10 أيلول 2026","textPreview":"دليل 2026/2027 • الحدود السابقة معروضة بسنتها • تحقق 10 أيلول 2026","textChars":66,"textLines":1,"bbox":[475,633.4,730,31.2]}
+{"kind":"image","id":"im/epcfqxkb","slide":4,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"image","id":"im/r21gfil0","slide":4,"name":"","alt":"لقطة فعلية عالية الدقة من مُرشِدي داخل إطار iPhone Pro","bbox":[8,6,438.67,658]}
+{"kind":"notes","id":"nt/y5zkfh","slide":4,"text":"1:32 إلى 2:12 (40 ثانية)\n\nلنأخذ طالبًا يفكر في علم الحاسوب. في شاشة واحدة يقارن البرامج، ويفهم الفرق بين شرط التقديم والحد التنافسي السابق، ويرى رسم الساعة ومصدر مجموعة البيانات وفترتها. شرط التقديم يجيب: هل يحق لي التقديم؟ أما الحد السابق فهو مرجع تاريخي، وليس وعد قبول. بهذه الدقة لا نعرض رقمًا بلا معناه ولا نخلط سنة بسنة، فيبني الطالب قائمة قصيرة يستطيع الدفاع عنها أمام أسرته والمرشد.\n\nالمصادر: وحدة تنسيق القبول الموحد: دليل البرامج والرسوم 2026/2027؛ جداول الحدود الدنيا المنشورة 2021–2025، تحقق 10 أيلول 2026. آخر حد تنافسي منشور يظهر كسجل سابق لا كضمان قبول.\nصورة شاشة حقيقية من النسخة المحلية المحدثة؛ إطار الهاتف فقط صورة توضيحية مولدة."}
+{"kind":"slide","id":"sl/4d6i21","slide":5,"title":"لحظة القرار: كلفة تناقشها الأسرة","textShapes":11}
+{"kind":"textbox","id":"sh/xkre1gnm","slide":5,"name":"لحظة القرار: كلفة تناقشها الأسرة","text":"لحظة القرار: كلفة تناقشها الأسرة","textPreview":"لحظة القرار: كلفة تناقشها الأسرة","textChars":32,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/wjixsbm1","slide":5,"name":"05","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"shape","id":"sh/il0fu147","slide":5,"bbox":[992,153,213,40]}
+{"kind":"textbox","id":"sh/58re5gny","slide":5,"name":"مثال قابل للتعديل","text":"مثال قابل للتعديل","textPreview":"مثال قابل للتعديل","textChars":17,"textLines":1,"bbox":[1002,155.9,193,31.2]}
+{"kind":"textbox","id":"sh/k7ixwbmd","slide":5,"name":"3,051","text":"3,051","textPreview":"3,051","textChars":5,"textLines":1,"bbox":[475,185.4,730,129.2]}
+{"kind":"textbox","id":"sh/7atw7qlo","slide":5,"name":"دينارًا سنويًا في هذا المثال","text":"دينارًا سنويًا في هذا المثال","textPreview":"دينارًا سنويًا في هذا المثال","textChars":28,"textLines":1,"bbox":[465,303.4,740,59.2]}
+{"kind":"shape","id":"sh/69kfyl43","slide":5,"bbox":[475,385,730,108]}
+{"kind":"textbox","id":"sh/wjql87ah","slide":5,"name":"47 د.أ للساعة","text":"47 د.أ للساعة","textPreview":"47 د.أ للساعة","textChars":13,"textLines":1,"bbox":[850,395.2,325,46.6]}
+{"kind":"textbox","id":"sh/hkz2hcb2","slide":5,"name":"رقم رسمي","text":"رقم رسمي","textPreview":"رقم رسمي","textChars":8,"textLines":1,"bbox":[850,440.2,325,32.6]}
+{"kind":"textbox","id":"sh/ux8j6xsb","slide":5,"name":"الساعات والمعيشة السنوية","text":"الساعات والمعيشة السنوية","textPreview":"الساعات والمعيشة السنوية","textChars":24,"textLines":1,"bbox":[500,397,325,43]}
+{"kind":"textbox","id":"sh/vyhkf2tw","slide":5,"name":"افتراضات الأسرة","text":"افتراضات الأسرة","textPreview":"افتراضات الأسرة","textChars":15,"textLines":1,"bbox":[500,440.2,325,32.6]}
+{"kind":"textbox","id":"sh/4nalc7ad","slide":5,"name":"تغيير الميزانية يغيّر فجوة التمويل فورًا","text":"تغيير الميزانية يغيّر فجوة التمويل فورًا","textPreview":"تغيير الميزانية يغيّر فجوة التمويل فورًا","textChars":40,"textLines":1,"bbox":[465,526,740,57]}
+{"kind":"textbox","id":"sh/5oj2lcby","slide":5,"name":"مثال علم الحاسوب، الجامعة الأردنية • لا توقع ","text":"مثال علم الحاسوب، الجامعة الأردنية • لا توقع دخل أو عائد مضمون","textPreview":"مثال علم الحاسوب، الجامعة الأردنية • لا توقع دخل أو عائد مضمون","textChars":62,"textLines":1,"bbox":[465,623.5,740,34]}
+{"kind":"image","id":"im/repsb6tg","slide":5,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"image","id":"im/eh0bm1cr","slide":5,"name":"","alt":"لقطة فعلية عالية الدقة من مُرشِدي داخل إطار iPhone Pro","bbox":[8,6,438.67,658]}
+{"kind":"notes","id":"nt/4d6i21","slide":5,"text":"2:12 إلى 2:47 (35 ثانية)\n\nبعد المقارنة، يحوّل الطالب خياره إلى خطة كلفة. في المثال، رسم الساعة الرسمي سبعة وأربعون دينارًا. ومع افتراض 132 ساعة خلال أربع سنوات، ورسوم أخرى ومعيشة قابلة للتعديل، تظهر كلفة سنوية مقدارها 3,051 دينارًا. إذا تغيّرت الميزانية تتغيّر فجوة التمويل فورًا. هكذا تنتقل الأسرة من سؤال عام عن القدرة إلى خطة واضحة، مع فصل الرقم الرسمي عن افتراضاتها الخاصة.\n\nالمصادر: رسم الساعة لعلم الحاسوب في الجامعة الأردنية من دليل القبول الموحد؛ بقية المدخلات افتراضات توضيحية قابلة للتعديل. الحساب: (47×132)/4 + 300 + (100×12) = 3,051 د.أ سنويًا. لا توقع دخل أو عائد مضمون.\nصورة شاشة حقيقية من النسخة المحلية المحدثة؛ إطار الهاتف فقط صورة توضيحية مولدة."}
+{"kind":"slide","id":"sl/gg6jym","slide":6,"title":"لماذا لا تكفي المصادر وحدها؟","textShapes":15}
+{"kind":"textbox","id":"sh/1crilsj6","slide":6,"name":"لماذا لا تكفي المصادر وحدها؟","text":"لماذا لا تكفي المصادر وحدها؟","textPreview":"لماذا لا تكفي المصادر وحدها؟","textChars":28,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/gbyhs721","slide":6,"name":"06","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"shape","id":"sh/3e90n21c","slide":6,"bbox":[855,178,350,142]}
+{"kind":"textbox","id":"sh/2d0zuxkr","slide":6,"name":"القبول الموحد","text":"القبول الموحد","textPreview":"القبول الموحد","textChars":13,"textLines":1,"bbox":[875,193,310,44]}
+{"kind":"textbox","id":"sh/pgripcji","slide":6,"name":"برامج وشروط\nبلا ميزانية أسرة","text":"برامج وشروط\nبلا ميزانية أسرة","textPreview":"برامج وشروط | بلا ميزانية أسرة","textChars":28,"textLines":2,"bbox":[877,239.1,306,64.8]}
+{"kind":"textbox","id":"sh/ofihw72x","slide":6,"name":"↓","text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[998,319.5,64,41]}
+{"kind":"shape","id":"sh/bi90rm1o","slide":6,"bbox":[455,178,350,142]}
+{"kind":"textbox","id":"sh/qh0jyhk3","slide":6,"name":"مواقع الجامعات","text":"مواقع الجامعات","textPreview":"مواقع الجامعات","textChars":14,"textLines":1,"bbox":[475,193,310,44]}
+{"kind":"textbox","id":"sh/ofmtcfyl","slide":6,"name":"رسوم منفصلة\nبلا مقارنة موحّدة","text":"رسوم منفصلة\nبلا مقارنة موحّدة","textPreview":"رسوم منفصلة | بلا مقارنة موحّدة","textChars":29,"textLines":2,"bbox":[477,239.1,306,64.8]}
+{"kind":"textbox","id":"sh/pgvulkz6","slide":6,"name":"↓","text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[598,319.5,64,41]}
+{"kind":"shape","id":"sh/2dkba5gf","slide":6,"bbox":[55,178,350,142]}
+{"kind":"textbox","id":"sh/3edcjah0","slide":6,"name":"إحصاءات العمل","text":"إحصاءات العمل","textPreview":"إحصاءات العمل","textChars":13,"textLines":1,"bbox":[75,193,310,44]}
+{"kind":"textbox","id":"sh/c3mtgzyx","slide":6,"name":"مؤشرات سوق\nبلا ربط بخيار الطالب","text":"مؤشرات سوق\nبلا ربط بخيار الطالب","textPreview":"مؤشرات سوق | بلا ربط بخيار الطالب","textChars":31,"textLines":2,"bbox":[77,239.1,306,64.8]}
+{"kind":"textbox","id":"sh/d4vupkzi","slide":6,"name":"↓","text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[198,319.5,64,41]}
+{"kind":"shape","id":"sh/q14bepgr","slide":6,"bbox":[160,363,1045,104]}
+{"kind":"textbox","id":"sh/b2dcnuhc","slide":6,"name":"مُرشِدي يضيف سياق الطالب","text":"مُرشِدي يضيف سياق الطالب","textPreview":"مُرشِدي يضيف سياق الطالب","textChars":24,"textLines":1,"bbox":[190,370.3,985,49.4]}
+{"kind":"textbox","id":"sh/076dkzyt","slide":6,"name":"الاهتمامات  +  ميزانية الأسرة  +  مقارنة موحّ","text":"الاهتمامات  +  ميزانية الأسرة  +  مقارنة موحّدة  +  مصدر وتاريخ","textPreview":"الاهتمامات  +  ميزانية الأسرة  +  مقارنة موحّدة  +  مصدر وتاريخ","textChars":63,"textLines":1,"bbox":[190,416.6,985,36.8]}
+{"kind":"shape","id":"sh/l8fut4ze","slide":6,"bbox":[160,487,1045,67]}
+{"kind":"textbox","id":"sh/9obud4ri","slide":6,"name":"النتيجة: قرار شخصي قابل للتفسير","text":"النتيجة: قرار شخصي قابل للتفسير","textPreview":"النتيجة: قرار شخصي قابل للتفسير","textChars":31,"textLines":1,"bbox":[190,496,985,49]}
+{"kind":"shape","id":"sh/8n2t4zqx","slide":6,"bbox":[160,575,1045,66]}
+{"kind":"textbox","id":"sh/7mtcbu9c","slide":6,"name":"دراستان عشوائيتان  •  أكثر من 77 ألف مشارك  •","text":"دراستان عشوائيتان  •  أكثر من 77 ألف مشارك  •  ندعم المنطق ونختبر الأثر محليًا","textPreview":"دراستان عشوائيتان  •  أكثر من 77 ألف مشارك  •  ندعم المنطق ونختبر الأثر محليًا","textChars":78,"textLines":1,"bbox":[182,583,1001,50]}
+{"kind":"image","id":"im/bm5sjmhk","slide":6,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"notes","id":"nt/gg6jym","slide":6,"text":"2:47 إلى 3:22 (35 ثانية)\n\nالقبول الموحد يشرح ما يمكن التقديم إليه، ومواقع الجامعات تنشر الرسوم، وإحصاءات العمل تصف السوق. لكن أيًّا منها لا يعرف اهتمام الطالب أو ميزانية أسرته، ولا يجمع المقارنة في قرار واحد. مُرشِدي يضيف سياق الطالب مع تفسير ومصدر وتاريخ. وتدعم منطق الحل تجربتان عشوائيتان منفصلتان ضمّتا أكثر من 77 ألف مشارك: معلومات مرتبطة بخيار الطالب قبل القرار يمكن أن تغيّر الاختيار. ثم نتحقق من الأثر محليًا.\n\nالمصادر: de Koning, Fouarge & Dur، IZA Discussion Paper 17951، 2025: 28,186 طالبًا في 243 مدرسة. Hastings, Neilson & Zimmerman، NBER Working Paper 21300: 49,166 مشاركًا. المجموع التقريبي أكبر من 77 ألفًا عبر تجربتين منفصلتين في سياقين خارج الأردن؛ يدعم مبدأ تخصيص المعلومات ولا يثبت خفض بطالة أو أثر مُرشِدي محليًا.\n"}
+{"kind":"slide","id":"sl/bsm8wy","slide":7,"title":"لمن؟ ومن يدفع؟","textShapes":15}
+{"kind":"textbox","id":"sh/vads3alg","slide":7,"name":"لمن؟ ومن يدفع؟","text":"لمن؟ ومن يدفع؟","textPreview":"لمن؟ ومن يدفع؟","textChars":14,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/u94ru5kv","slide":7,"name":"07","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"shape","id":"sh/98ba103a","slide":7,"bbox":[855,187,350,378]}
+{"kind":"shape","id":"sh/8729sv2p","slide":7,"bbox":[930,209,200,40]}
+{"kind":"textbox","id":"sh/76tszal4","slide":7,"name":"المستفيد","text":"المستفيد","textPreview":"المستفيد","textChars":8,"textLines":1,"bbox":[940,211.9,180,31.2]}
+{"kind":"textbox","id":"sh/m5krq5kz","slide":7,"name":"الطالب والأسرة","text":"الطالب والأسرة","textPreview":"الطالب والأسرة","textChars":14,"textLines":1,"bbox":[875,276,310,59]}
+{"kind":"textbox","id":"sh/t4fad4je","slide":7,"name":"رحلة القرار الأساسية\nمجانية","text":"رحلة القرار الأساسية\nمجانية","textPreview":"رحلة القرار الأساسية | مجانية","textChars":27,"textLines":2,"bbox":[880,350,300,91]}
+{"kind":"textbox","id":"sh/s36t4z29","slide":7,"name":"قرار أوضح بلا تكلفة على الطالب","text":"قرار أوضح بلا تكلفة على الطالب","textPreview":"قرار أوضح بلا تكلفة على الطالب","textChars":30,"textLines":1,"bbox":[879,478,302,49]}
+{"kind":"shape","id":"sh/6xk3y9of","slide":7,"bbox":[455,187,350,378]}
+{"kind":"shape","id":"sh/7yt4rep0","slide":7,"bbox":[530,209,200,40]}
+{"kind":"textbox","id":"sh/8z250j6l","slide":7,"name":"عميل نختبره","text":"عميل نختبره","textPreview":"عميل نختبره","textChars":11,"textLines":1,"bbox":[540,211.9,180,31.2]}
+{"kind":"textbox","id":"sh/t0vmto76","slide":7,"name":"مدرسة أو جامعة","text":"مدرسة أو جامعة","textPreview":"مدرسة أو جامعة","textChars":14,"textLines":1,"bbox":[475,276,310,59]}
+{"kind":"textbox","id":"sh/y9k3u98j","slide":7,"name":"عرض مؤسسي مقترح\nأدوات + تقارير + دعم","text":"عرض مؤسسي مقترح\nأدوات + تقارير + دعم","textPreview":"عرض مؤسسي مقترح | أدوات + تقارير + دعم","textChars":36,"textLines":2,"bbox":[480,350,300,91]}
+{"kind":"textbox","id":"sh/zut4nep4","slide":7,"name":"نختبر استعداد الدفع في التجربة","text":"نختبر استعداد الدفع في التجربة","textPreview":"نختبر استعداد الدفع في التجربة","textChars":30,"textLines":1,"bbox":[479,478,302,49]}
+{"kind":"shape","id":"sh/kv2lwjq9","slide":7,"bbox":[55,187,350,378]}
+{"kind":"shape","id":"sh/lwbmp47u","slide":7,"bbox":[130,209,200,40]}
+{"kind":"textbox","id":"sh/ip4n6ton","slide":7,"name":"شريك تمكين مستهدف","text":"شريك تمكين مستهدف","textPreview":"شريك تمكين مستهدف","textChars":17,"textLines":1,"bbox":[140,211.9,180,31.2]}
+{"kind":"textbox","id":"sh/3qd4zyp8","slide":7,"name":"جهة تعليمية عامة","text":"جهة تعليمية عامة","textPreview":"جهة تعليمية عامة","textChars":16,"textLines":1,"bbox":[75,276,310,59]}
+{"kind":"textbox","id":"sh/fap0rq5k","slide":7,"name":"وصول للبيانات والمدارس\nوقياس أثر أوسع","text":"وصول للبيانات والمدارس\nوقياس أثر أوسع","textPreview":"وصول للبيانات والمدارس | وقياس أثر أوسع","textChars":37,"textLines":2,"bbox":[80,350,300,91]}
+{"kind":"textbox","id":"sh/e9wjyloz","slide":7,"name":"خدمة وطنية مبنية على دليل","text":"خدمة وطنية مبنية على دليل","textPreview":"خدمة وطنية مبنية على دليل","textChars":25,"textLines":1,"bbox":[79,478,302,49]}
+{"kind":"shape","id":"sh/1c72t0nq","slide":7,"bbox":[145,594,1060,58]}
+{"kind":"textbox","id":"sh/0by10v65","slide":7,"name":"المستفيد يستخدم  ←  نختبر دفع المؤسسة  ←  الج","text":"المستفيد يستخدم  ←  نختبر دفع المؤسسة  ←  الجهة العامة تمكّن التوسع","textPreview":"المستفيد يستخدم  ←  نختبر دفع المؤسسة  ←  الجهة العامة تمكّن التوسع","textChars":67,"textLines":1,"bbox":[165,601,1020,43]}
+{"kind":"image","id":"im/dwnyt4rq","slide":7,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"notes","id":"nt/bsm8wy","slide":7,"text":"3:22 إلى 3:57 (35 ثانية)\n\nالمستفيد المباشر هو الطالب وأسرته؛ يحصلان على رحلة القرار الأساسية مجانًا. العميل الذي سنختبر استعداده للدفع هو مدرسة أو جامعة أو شبكة تعليمية. سنقدّم لها عرضًا مؤسسيًا مقترحًا يضم أدوات للمرشد وتقارير مجمعة ودعمًا. ونستهدف الجهة التعليمية العامة كشريك تمكين وتوسع يسهّل الوصول إلى البيانات والمدارس وقياس الأثر. فصل المستفيد عن العميل يجعل النموذج قابلًا للتبني من دون وضع تكلفة القرار على الطالب.\n\nالمصادر: نموذج B2B2C مقترح: الطالب والأسرة مستفيدان، والمؤسسة التعليمية عميل دافع، والجهة العامة شريك تمكين وتوسع. لا عملاء أو عقود أو شراكات حكومية قائمة حتى 11 أيلول 2026.\n"}
+{"kind":"slide","id":"sl/3ne98e","slide":8,"title":"نموذج العمل ومصادر الإيراد","textShapes":17}
+{"kind":"textbox","id":"sh/dwfu5kzu","slide":8,"name":"نموذج العمل ومصادر الإيراد","text":"نموذج العمل ومصادر الإيراد","textPreview":"نموذج العمل ومصادر الإيراد","textChars":26,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/cb6twzi9","slide":8,"name":"08","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"shape","id":"sh/36dcza1s","slide":8,"bbox":[855,181,350,316]}
+{"kind":"shape","id":"sh/254bq507","slide":8,"bbox":[910,204,240,40]}
+{"kind":"textbox","id":"sh/p8vu1kzy","slide":8,"name":"الطالب والأسرة","text":"الطالب والأسرة","textPreview":"الطالب والأسرة","textChars":14,"textLines":1,"bbox":[920,206.9,220,31.2]}
+{"kind":"textbox","id":"sh/o7mtsfid","slide":8,"name":"مجاني","text":"مجاني","textPreview":"مجاني","textChars":5,"textLines":1,"bbox":[875,264,310,86]}
+{"kind":"textbox","id":"sh/f2dsva1w","slide":8,"name":"رحلة القرار الأساسية","text":"رحلة القرار الأساسية","textPreview":"رحلة القرار الأساسية","textChars":20,"textLines":1,"bbox":[880,355,300,47]}
+{"kind":"textbox","id":"sh/e14bm50b","slide":8,"name":"بلا تكلفة على المستفيد","text":"بلا تكلفة على المستفيد","textPreview":"بلا تكلفة على المستفيد","textChars":22,"textLines":1,"bbox":[880,421,300,49]}
+{"kind":"shape","id":"sh/4fq143at","slide":8,"bbox":[455,181,350,316]}
+{"kind":"shape","id":"sh/5gzidore","slide":8,"bbox":[510,204,240,40]}
+{"kind":"textbox","id":"sh/id8j2tsn","slide":8,"name":"المؤسسة التعليمية","text":"المؤسسة التعليمية","textPreview":"المؤسسة التعليمية","textChars":17,"textLines":1,"bbox":[520,206.9,220,31.2]}
+{"kind":"textbox","id":"sh/jeh0by98","slide":8,"name":"20 دينارًا","text":"20 دينارًا","textPreview":"20 دينارًا","textChars":10,"textLines":1,"bbox":[475,264,310,86]}
+{"kind":"textbox","id":"sh/wb610jax","slide":8,"name":"لكل مقعد طالب ممول سنويًا","text":"لكل مقعد طالب ممول سنويًا","textPreview":"لكل مقعد طالب ممول سنويًا","textChars":25,"textLines":1,"bbox":[480,355,300,47]}
+{"kind":"textbox","id":"sh/hcfi9ori","slide":8,"name":"عرض مقترح: أدوات + تقارير + تدريب","text":"عرض مقترح: أدوات + تقارير + تدريب","textPreview":"عرض مقترح: أدوات + تقارير + تدريب","textChars":33,"textLines":1,"bbox":[480,421,300,49]}
+{"kind":"shape","id":"sh/u9ojy9sr","slide":8,"bbox":[55,181,350,316]}
+{"kind":"shape","id":"sh/vax07e9c","slide":8,"bbox":[110,204,240,40]}
+{"kind":"textbox","id":"sh/07a1cna1","slide":8,"name":"جهة تعليمية عامة","text":"جهة تعليمية عامة","textPreview":"جهة تعليمية عامة","textChars":16,"textLines":1,"bbox":[120,206.9,220,31.2]}
+{"kind":"textbox","id":"sh/18j2l8rm","slide":8,"name":"عقد سنوي","text":"عقد سنوي","textPreview":"عقد سنوي","textChars":8,"textLines":1,"bbox":[75,264,310,86]}
+{"kind":"textbox","id":"sh/94fip8jq","slide":8,"name":"بحسب نطاق الخدمة","text":"بحسب نطاق الخدمة","textPreview":"بحسب نطاق الخدمة","textChars":16,"textLines":1,"bbox":[80,355,300,47]}
+{"kind":"textbox","id":"sh/o361w325","slide":8,"name":"بيانات + دعم + قياس أثر","text":"بيانات + دعم + قياس أثر","textPreview":"بيانات + دعم + قياس أثر","textChars":23,"textLines":1,"bbox":[80,421,300,49]}
+{"kind":"shape","id":"sh/n2x0ny1k","slide":8,"bbox":[160,522,1045,78]}
+{"kind":"textbox","id":"sh/m1ojudkz","slide":8,"name":"1,950 مقعد طالب ممول","text":"1,950 مقعد طالب ممول","textPreview":"1,950 مقعد طالب ممول","textChars":20,"textLines":1,"bbox":[625,528,550,54]}
+{"kind":"textbox","id":"sh/10fil8ju","slide":8,"name":"نقطة تعادل مفترضة","text":"نقطة تعادل مفترضة","textPreview":"نقطة تعادل مفترضة","textChars":17,"textLines":1,"bbox":[190,531,400,48]}
+{"kind":"textbox","id":"sh/0zm1s329","slide":8,"name":"فرضيات للاختبار وليست مبيعات: السعر، الكلفة، ","text":"فرضيات للاختبار وليست مبيعات: السعر، الكلفة، والتعادل تتغير بنتائج التجربة","textPreview":"فرضيات للاختبار وليست مبيعات: السعر، الكلفة، والتعادل تتغير بنتائج التجربة","textChars":74,"textLines":1,"bbox":[160,618.2,1045,32.6]}
+{"kind":"image","id":"im/vu98va5o","slide":8,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"notes","id":"nt/3ne98e","slide":8,"text":"3:57 إلى 4:42 (45 ثانية)\n\nلدينا ثلاث طبقات واضحة. الطالب والأسرة يستخدمان الرحلة الأساسية مجانًا. نفترض أن المؤسسة التعليمية تدفع 20 دينارًا سنويًا عن كل مقعد طالب ممول مقابل طبقة مؤسسية نقترحها: أدوات للمرشد، وتقارير مجمعة، وتدريب ودعم. وعلى نطاق وطني يمكن أن يكون الإيراد عقدًا سنويًا بحسب حجم الخدمة وقياس الأثر. وفق افتراضاتنا الحالية، نصل إلى التعادل عند 1,950 مقعد طالب ممول بعقود مؤسسية. سنختبر هذه الفرضيات بعروض سعر وتجارب مدفوعة؛ وهي ليست إيرادًا محققًا.\n\nالمصادر: فرضية تسعير للاختبار وليست مبيعات: 20 د.أ/مقعد طالب ممول/سنة للمؤسسة. افتراض كلفة متغيرة 4 د.أ سنويًا لكل طالب نشط، كلفة ثابتة 30,000 د.أ سنويًا، و300 طالب تجارب مجانية خارج المقاعد الممولة. التعادل: [30,000+(300×4)]/(20−4)=1,950 مقعد طالب ممول. لا سعر مفترض للعقد العام قبل تحديد النطاق.\n"}
+{"kind":"slide","id":"sl/id9d35","slide":9,"title":"الأثر: كيف نتحقق منه محليًا؟","textShapes":16}
+{"kind":"textbox","id":"sh/dsbq10vi","slide":9,"name":"الأثر: كيف نتحقق منه محليًا؟","text":"الأثر: كيف نتحقق منه محليًا؟","textPreview":"الأثر: كيف نتحقق منه محليًا؟","textChars":28,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/sr2p8vux","slide":9,"name":"09","text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"textbox","id":"sh/3m9ov6dg","slide":9,"name":"100","text":"100","textPreview":"100","textChars":3,"textLines":1,"bbox":[860,179.4,340,115.2]}
+{"kind":"textbox","id":"sh/il072lcv","slide":9,"name":"طالب","text":"طالب","textPreview":"طالب","textChars":4,"textLines":1,"bbox":[860,286,340,52]}
+{"kind":"textbox","id":"sh/5obqxgv6","slide":9,"name":"3","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[465,179.4,340,115.2]}
+{"kind":"textbox","id":"sh/4nip4bu1","slide":9,"name":"مدارس","text":"مدارس","textPreview":"مدارس","textChars":5,"textLines":1,"bbox":[465,286,340,52]}
+{"kind":"textbox","id":"sh/nid87atk","slide":9,"name":"6","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[70,179.4,340,115.2]}
+{"kind":"textbox","id":"sh/2h47e5cz","slide":9,"name":"أسابيع","text":"أسابيع","textPreview":"أسابيع","textChars":6,"textLines":1,"bbox":[70,286,340,52]}
+{"kind":"shape","id":"sh/4j6psfqd","slide":9,"bbox":[280,365,925,58]}
+{"kind":"textbox","id":"sh/5kfq1kri","slide":9,"name":"نقيس قبل الاستخدام وبعده","text":"نقيس قبل الاستخدام وبعده","textPreview":"نقيس قبل الاستخدام وبعده","textChars":24,"textLines":1,"bbox":[300,371.6,885,43.8]}
+{"kind":"shape","id":"sh/ih47qp87","slide":9,"bbox":[835,461,340,126]}
+{"kind":"textbox","id":"sh/3ix8za9s","slide":9,"name":"70 طالبًا","text":"70 طالبًا","textPreview":"70 طالبًا","textChars":9,"textLines":1,"bbox":[850,472.9,310,59.2]}
+{"kind":"textbox","id":"sh/gfmpofq1","slide":9,"name":"يكملون مقارنة موثقة","text":"يكملون مقارنة موثقة","textPreview":"يكملون مقارنة موثقة","textChars":19,"textLines":1,"bbox":[853,535,304,38]}
+{"kind":"shape","id":"sh/hgvqxkrm","slide":9,"bbox":[455,461,340,126]}
+{"kind":"textbox","id":"sh/ut47m58v","slide":9,"name":"+1 نقطة","text":"+1 نقطة","textPreview":"+1 نقطة","textChars":7,"textLines":1,"bbox":[470,472.9,310,59.2]}
+{"kind":"textbox","id":"sh/ved8va9g","slide":9,"name":"تحسن وضوح ذاتي","text":"تحسن وضوح ذاتي","textPreview":"تحسن وضوح ذاتي","textChars":14,"textLines":1,"bbox":[473,535,304,38]}
+{"kind":"shape","id":"sh/8rmpkvq5","slide":9,"bbox":[75,461,340,126]}
+{"kind":"textbox","id":"sh/tsv6t0rq","slide":9,"name":"مؤسستان","text":"مؤسستان","textPreview":"مؤسستان","textChars":7,"textLines":1,"bbox":[90,472.9,310,59.2]}
+{"kind":"textbox","id":"sh/pw3e1sf2","slide":9,"name":"تبدآن تجربة مدفوعة","text":"تبدآن تجربة مدفوعة","textPreview":"تبدآن تجربة مدفوعة","textChars":18,"textLines":1,"bbox":[93,535,304,38]}
+{"kind":"textbox","id":"sh/obux8nyh","slide":9,"name":"أهداف تجربة معلنة، وليست نتائج محققة  •  إذا ","text":"أهداف تجربة معلنة، وليست نتائج محققة  •  إذا لم تتحقق نعدّل قبل التوسع","textPreview":"أهداف تجربة معلنة، وليست نتائج محققة  •  إذا لم تتحقق نعدّل قبل التوسع","textChars":70,"textLines":1,"bbox":[120,615,1085,34]}
+{"kind":"image","id":"im/nahsjexw","slide":9,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"notes","id":"nt/id9d35","slide":9,"text":"4:42 إلى 5:22 (40 ثانية)\n\nنبدأ بتجربة محددة: 100 طالب في ثلاث مدارس خلال ستة أسابيع. نرصد قبل الاستخدام وبعده وقت بناء مقارنة ثلاثة برامج، وإجابات الطالب في اختبار قصير حول القبول والكلفة، ووضوحه الذاتي على مقياس من خمس نقاط. نعتبر التجربة ناجحة إذا أكمل 70 طالبًا مقارنة موثقة، وتحسن متوسط الوضوح الذاتي بنقطة واحدة، وبدأت مؤسستان تجربة مدفوعة. هذه أهداف معلنة وليست نتائج سابقة؛ وإذا لم تتحقق نعدّل قبل التوسع.\n\nالمصادر: تصميم تجربة وأهداف مقترحة وليست نتائج محققة: 100 طالب، 3 مدارس، 6 أسابيع؛ 70 طالبًا يكملون مقارنة موثقة؛ تحسن نقطة واحدة على مقياس من 5؛ ومؤسستان تبدآن تجربة مدفوعة. دليل الجائزة ص29-30 يطلب أثرًا قابلًا للقياس.\n"}
+{"kind":"slide","id":"sl/ozb0vp","slide":10,"title":"من نسخة عاملة إلى خدمة قابلة للتبنّي","textShapes":14}
+{"kind":"textbox","id":"sh/u5g36hcf","slide":10,"name":"من نسخة عاملة إلى خدمة قابلة للتبنّي","text":"من نسخة عاملة إلى خدمة قابلة للتبنّي","textPreview":"من نسخة عاملة إلى خدمة قابلة للتبنّي","textChars":36,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/v6pkzmd0","slide":10,"name":"10","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"shape","id":"sh/83yl47u9","slide":10,"bbox":[855,181,350,318]}
+{"kind":"shape","id":"sh/9472xcvu","slide":10,"bbox":[925,202,210,40]}
+{"kind":"textbox","id":"sh/m1wj2xcj","slide":10,"name":"اليوم","text":"اليوم","textPreview":"اليوم","textChars":5,"textLines":1,"bbox":[935,204.9,190,31.2]}
+{"kind":"textbox","id":"sh/72pkv2do","slide":10,"name":"نسخة ويب عاملة","text":"نسخة ويب عاملة","textPreview":"نسخة ويب عاملة","textChars":14,"textLines":1,"bbox":[875,264,310,55]}
+{"kind":"textbox","id":"sh/szilgbut","slide":10,"name":"عربي وإنجليزي\nلقطة بيانات موثقة\nوشاشات حقيقية","text":"عربي وإنجليزي\nلقطة بيانات موثقة\nوشاشات حقيقية","textPreview":"عربي وإنجليزي | لقطة بيانات موثقة | وشاشات حقيقية","textChars":45,"textLines":3,"bbox":[880,337,300,126]}
+{"kind":"shape","id":"sh/d0rm9gvy","slide":10,"bbox":[455,181,350,318]}
+{"kind":"shape","id":"sh/lorylwvq","slide":10,"bbox":[525,202,210,40]}
+{"kind":"textbox","id":"sh/knihcre5","slide":10,"name":"خلال 90 يومًا","text":"خلال 90 يومًا","textPreview":"خلال 90 يومًا","textChars":13,"textLines":1,"bbox":[535,204.9,190,31.2]}
+{"kind":"textbox","id":"sh/jmpgjmdk","slide":10,"name":"تجربة وقياس","text":"تجربة وقياس","textPreview":"تجربة وقياس","textChars":11,"textLines":1,"bbox":[475,264,310,55]}
+{"kind":"textbox","id":"sh/ylgzahwz","slide":10,"name":"استخدام فعلي\nتقرير أثر\nواختبار استعداد الدفع","text":"استخدام فعلي\nتقرير أثر\nواختبار استعداد الدفع","textPreview":"استخدام فعلي | تقرير أثر | واختبار استعداد الدفع","textChars":44,"textLines":3,"bbox":[480,337,300,126]}
+{"kind":"shape","id":"sh/xk7yhwve","slide":10,"bbox":[55,181,350,318]}
+{"kind":"shape","id":"sh/wjyh8ret","slide":10,"bbox":[125,202,210,40]}
+{"kind":"textbox","id":"sh/bipgfmd8","slide":10,"name":"خلال 12 شهرًا","text":"خلال 12 شهرًا","textPreview":"خلال 12 شهرًا","textChars":13,"textLines":1,"bbox":[135,204.9,190,31.2]}
+{"kind":"textbox","id":"sh/axgf6hwn","slide":10,"name":"تعادل مفترض","text":"تعادل مفترض","textPreview":"تعادل مفترض","textChars":11,"textLines":1,"bbox":[75,264,310,55]}
+{"kind":"textbox","id":"sh/hgbytgvi","slide":10,"name":"13 مؤسسة\n1,950 مقعدًا ممولًا\n+ 300 طالب تجارب","text":"13 مؤسسة\n1,950 مقعدًا ممولًا\n+ 300 طالب تجارب مجانية","textPreview":"13 مؤسسة | 1,950 مقعدًا ممولًا | + 300 طالب تجارب مجانية","textChars":52,"textLines":3,"bbox":[80,337,300,126]}
+{"kind":"shape","id":"sh/gf2hkbed","slide":10,"bbox":[145,536,1060,83]}
+{"kind":"textbox","id":"sh/0za1gzm9","slide":10,"name":"طلبنا من اللجنة","text":"طلبنا من اللجنة","textPreview":"طلبنا من اللجنة","textChars":15,"textLines":1,"bbox":[950,548,225,48]}
+{"kind":"textbox","id":"sh/1kjipk3u","slide":10,"name":"3 مدارس ومرشدون  +  قناة بيانات تعليمية  +  ت","text":"3 مدارس ومرشدون  +  قناة بيانات تعليمية  +  تقرير أثر","textPreview":"3 مدارس ومرشدون  +  قناة بيانات تعليمية  +  تقرير أثر","textChars":53,"textLines":1,"bbox":[180,548,735,48]}
+{"kind":"textbox","id":"sh/ex8jep43","slide":10,"name":"الإيراد يمول تحديث البيانات ودعم المرشد وقياس","text":"الإيراد يمول تحديث البيانات ودعم المرشد وقياس الأثر","textPreview":"الإيراد يمول تحديث البيانات ودعم المرشد وقياس الأثر","textChars":51,"textLines":1,"bbox":[145,633.7,1060,32.6]}
+{"kind":"image","id":"im/wva90z25","slide":10,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"notes","id":"nt/ozb0vp","slide":10,"text":"5:22 إلى 6:09 (47 ثانية)\n\nاليوم لدينا نسخة ويب محلية عاملة بالعربية والإنجليزية، وشاشات حقيقية، ولقطة بيانات عامة متحققة بسنة ومصدر. خلال تسعين يومًا ننفذ التجربة، نقيس القيمة، ونختبر استعداد المؤسسات للدفع. وخلال اثني عشر شهرًا نستهدف 13 مؤسسة و1,950 مقعد طالب ممول للوصول إلى نقطة التعادل المفترضة، مع 300 طالب في تجارب مجانية خارجها. الإيراد يمول تحديث المصادر ودعم المرشدين وقياس الأثر. وطلبنا من اللجنة هو ربطنا بثلاث مدارس ومرشدين وقناة بيانات تعليمية لنقدّم تقريرًا قابلًا للمراجعة.\n\nالمصادر: خطة تنفيذ وأهداف مستقبلية وليست نتائج: اليوم نسخة ويب محلية عاملة؛ 90 يومًا للتجربة والتقرير؛ 12 شهرًا لهدف 13 مؤسسة و1,950 مقعد طالب ممول، إضافة إلى 300 طالب تجارب مجانية. لا تنسيق حكومي رسمي قائم؛ الربط بثلاث مدارس وجهة بيانات هو الطلب المقترح.\n"}
+{"kind":"slide","id":"sl/ww1rnv","slide":11,"title":"Vcoders: مسؤوليات واضحة وملكية مشتركة","textShapes":18}
+{"kind":"textbox","id":"sh/at03elcr","slide":11,"name":"Vcoders: مسؤوليات واضحة وملكية مشتركة","text":"Vcoders: مسؤوليات واضحة وملكية مشتركة","textPreview":"Vcoders: مسؤوليات واضحة وملكية مشتركة","textChars":37,"textLines":1,"bbox":[60,50,1080,94]}
+{"kind":"textbox","id":"sh/vu947qdc","slide":11,"name":"11","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[60,669.4,65,31.2]}
+{"kind":"textbox","id":"sh/4j25kvut","slide":11,"name":"عبد الرحمن\nالهيموني","text":"عبد الرحمن\nالهيموني","textPreview":"عبد الرحمن | الهيموني","textChars":19,"textLines":2,"bbox":[864,210,340,116]}
+{"kind":"textbox","id":"sh/5kbmd0ve","slide":11,"name":"قيادة الفريق","text":"قيادة الفريق","textPreview":"قيادة الفريق","textChars":12,"textLines":1,"bbox":[864,354,340,53]}
+{"kind":"textbox","id":"sh/ih03ilc3","slide":11,"name":"منطق التطبيق والبيانات\nوالاختبار","text":"منطق التطبيق والبيانات\nوالاختبار","textPreview":"منطق التطبيق والبيانات | والاختبار","textChars":32,"textLines":2,"bbox":[864,426,340,111]}
+{"kind":"textbox","id":"sh/jit4bqdo","slide":11,"name":"عبد الرحمن\nالكردي","text":"عبد الرحمن\nالكردي","textPreview":"عبد الرحمن | الكردي","textChars":17,"textLines":2,"bbox":[465,210,340,116]}
+{"kind":"textbox","id":"sh/sn25ofu5","slide":11,"name":"تجربة المستخدم","text":"تجربة المستخدم","textPreview":"تجربة المستخدم","textChars":14,"textLines":1,"bbox":[465,354,340,53]}
+{"kind":"textbox","id":"sh/tobmhkvq","slide":11,"name":"الهوية البصرية\nوتنظيم رحلة الطالب","text":"الهوية البصرية\nوتنظيم رحلة الطالب","textPreview":"الهوية البصرية | وتنظيم رحلة الطالب","textChars":33,"textLines":2,"bbox":[465,426,340,111]}
+{"kind":"textbox","id":"sh/p83u1krq","slide":11,"name":"زيد\nأبو الشعر","text":"زيد\nأبو الشعر","textPreview":"زيد | أبو الشعر","textChars":13,"textLines":2,"bbox":[60,210,340,116]}
+{"kind":"textbox","id":"sh/47utsfq5","slide":11,"name":"تنفيذ الواجهات","text":"تنفيذ الواجهات","textPreview":"تنفيذ الواجهات","textChars":14,"textLines":1,"bbox":[60,354,340,53]}
+{"kind":"textbox","id":"sh/361sza9k","slide":11,"name":"تحويل التصميم\nإلى تجربة قابلة للاستخدام","text":"تحويل التصميم\nإلى تجربة قابلة للاستخدام","textPreview":"تحويل التصميم | إلى تجربة قابلة للاستخدام","textChars":39,"textLines":2,"bbox":[60,426,340,111]}
+{"kind":"shape","id":"sh/25sbq5sf","slide":11,"bbox":[145,586,1060,72]}
+{"kind":"textbox","id":"sh/dw3u5kr2","slide":11,"name":"مراجعة مشتركة","text":"مراجعة مشتركة","textPreview":"مراجعة مشتركة","textChars":13,"textLines":1,"bbox":[160,599,190,44]}
+{"kind":"textbox","id":"sh/cbutwfqh","slide":11,"name":"←","text":"←","textPreview":"←","textChars":1,"textLines":1,"bbox":[365,599,50,44]}
+{"kind":"textbox","id":"sh/ralc3u9w","slide":11,"name":"واجهة عاملة","text":"واجهة عاملة","textPreview":"واجهة عاملة","textChars":11,"textLines":1,"bbox":[430,599,200,44]}
+{"kind":"textbox","id":"sh/q9cbup8b","slide":11,"name":"←","text":"←","textPreview":"←","textChars":1,"textLines":1,"bbox":[645,599,50,44]}
+{"kind":"textbox","id":"sh/t0jat0ri","slide":11,"name":"رحلة مفهومة","text":"رحلة مفهومة","textPreview":"رحلة مفهومة","textChars":11,"textLines":1,"bbox":[710,599,200,44]}
+{"kind":"textbox","id":"sh/sfatkvax","slide":11,"name":"←","text":"←","textPreview":"←","textChars":1,"textLines":1,"bbox":[925,599,50,44]}
+{"kind":"textbox","id":"sh/kjutgvit","slide":11,"name":"بيانات صحيحة","text":"بيانات صحيحة","textPreview":"بيانات صحيحة","textChars":12,"textLines":1,"bbox":[990,599,190,44]}
+{"kind":"image","id":"im/4fypg7ul","slide":11,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1168,42,58,58]}
+{"kind":"notes","id":"nt/ww1rnv","slide":11,"text":"6:09 إلى 6:34 (25 ثانية)\n\nيتكامل فريقنا في ثلاث مسؤوليات. عبد الرحمن الهيموني يقود منطق التطبيق والبيانات والاختبار. عبد الرحمن الكردي يتولى تجربة المستخدم والهوية وتنظيم رحلة الطالب. وزيد أبو الشعر ينفّذ الواجهات ويحوّل التصميم إلى تجربة قابلة للاستخدام. نراجع كل قرار معًا حتى تظهر النتيجة كمنتج واحد: بيانات صحيحة، ورحلة مفهومة، وواجهة تعمل.\n\nالمصادر: Murshidi-Team-Roles.pdf من حزمة المشروع؛ اسم الفريق Vcoders حسب المستخدم.\n"}
+{"kind":"slide","id":"sl/a2uhmi","slide":12,"title":"قبل أن يلتزم الطالب لسنوات،","textShapes":5}
+{"kind":"textbox","id":"sh/wj2hcrm5","slide":12,"name":"قبل أن يلتزم الطالب لسنوات،","text":"قبل أن يلتزم الطالب لسنوات،","textPreview":"قبل أن يلتزم الطالب لسنوات،","textChars":27,"textLines":1,"bbox":[585,181,620,61]}
+{"kind":"textbox","id":"sh/jmt076lg","slide":12,"name":"يرى الملاءمة والقبول والكلفة والسوق\nفي قرار و","text":"يرى الملاءمة والقبول والكلفة والسوق\nفي قرار واحد يمكن تفسيره.","textPreview":"يرى الملاءمة والقبول والكلفة والسوق | في قرار واحد يمكن تفسيره.","textChars":61,"textLines":2,"bbox":[515,252,690,154]}
+{"kind":"shape","id":"sh/ilkze14v","slide":12,"bbox":[665,454,540,66]}
+{"kind":"textbox","id":"sh/5ovi9g3m","slide":12,"name":"هل نبدأ التجربة؟","text":"هل نبدأ التجربة؟","textPreview":"هل نبدأ التجربة؟","textChars":16,"textLines":1,"bbox":[685,462,500,49]}
+{"kind":"textbox","id":"sh/kn2hgbm1","slide":12,"name":"مُرشِدي  •  Vcoders","text":"مُرشِدي  •  Vcoders","textPreview":"مُرشِدي  •  Vcoders","textChars":19,"textLines":1,"bbox":[720,566,485,50]}
+{"kind":"textbox","id":"sh/zq9gv2lc","slide":12,"name":"شكرًا لكم","text":"شكرًا لكم","textPreview":"شكرًا لكم","textChars":9,"textLines":1,"bbox":[930,623.9,275,38.2]}
+{"kind":"image","id":"im/vahcnih8","slide":12,"name":"","alt":"رسم مفاهيمي لمسار تعليمي","bbox":[0,0,1280,720]}
+{"kind":"image","id":"im/wbqtgnyt","slide":12,"name":"","alt":"شعار مُرشِدي الأصلي","bbox":[1087,58,118,118]}
+{"kind":"notes","id":"nt/a2uhmi","slide":12,"text":"6:34 إلى 6:50 (16 ثانية)\n\nقبل أن يلتزم الطالب لسنوات، يستحق أن يرى الملاءمة والقبول والكلفة والسوق في قرار واحد يمكن تفسيره. مُرشِدي يحوّل البيانات العامة إلى خطوة عملية. لدينا منتج يعمل وخطة قياس واضحة. هل نبدأ التجربة؟ شكرًا لكم.\n\nالمصادر: خاتمة العرض؛ لا تتضمن ادعاء شراكة أو نتيجة أثر غير محققة.\n"}

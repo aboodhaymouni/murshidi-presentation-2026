@@ -1,0 +1,46 @@
+const fs = require('fs');
+const path = require('path');
+const http = require('http');
+const { chromium } = require('C:/Users/Abdalrahman/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root = path.join(__dirname, 'apk-web');
+const mime = {'.html':'text/html','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.png':'image/png'};
+(async () => {
+  const server = http.createServer((req, res) => {
+    const cleanPath = decodeURIComponent(req.url.split('?')[0]);
+    let file = path.resolve(root, '.' + cleanPath);
+    if (!file.startsWith(root + path.sep) && file !== root) { res.writeHead(403); return res.end(); }
+    if (!fs.existsSync(file) || fs.statSync(file).isDirectory()) file = path.join(root, 'index.html');
+    res.setHeader('Content-Type', mime[path.extname(file)] || 'application/octet-stream');
+    fs.createReadStream(file).pipe(res);
+  });
+  await new Promise(resolve => server.listen(4187, '127.0.0.1', resolve));
+  const browser = await chromium.launch({headless:true});
+  const page = await browser.newPage({viewport:{width:440,height:956},deviceScaleFactor:2});
+  await page.goto('http://127.0.0.1:4187', {waitUntil:'networkidle'});
+  await page.screenshot({path:path.join(__dirname, 'app-initial.png')});
+  await page.getByText('تخطّي', {exact:true}).click();
+  await page.waitForTimeout(600);
+  await page.screenshot({path:path.join(__dirname, 'app-home.png')});
+  await page.getByText('فتح الحاسبة', {exact:true}).click();
+  await page.waitForTimeout(300);
+  await page.screenshot({path:path.join(__dirname, 'app-calculator.png')});
+  await page.getByText('متابعة إلى اختيار التخصّصات', {exact:true}).click();
+  await page.waitForTimeout(300);
+  await page.screenshot({path:path.join(__dirname, 'app-majors.png')});
+  await page.getByText('علوم الحاسوب', {exact:true}).click();
+  await page.getByText('التمريض', {exact:true}).click();
+  await page.getByText('المحاسبة', {exact:true}).click();
+  await page.getByText('عرض النتائج', {exact:true}).click();
+  await page.waitForTimeout(500);
+  await page.evaluate(()=>window.scrollTo(0,0));
+  await page.screenshot({path:path.join(__dirname, 'app-results.png')});
+  await page.getByText('الرئيسيّة', {exact:true}).click();
+  await page.getByText('اختبار الميول الأكاديمي', {exact:true}).click();
+  await page.waitForTimeout(300);
+  await page.evaluate(()=>window.scrollTo(0,0));
+  await page.screenshot({path:path.join(__dirname, 'app-interests.png')});
+  console.log((await page.locator('body').innerText()).slice(0,10000));
+  console.log('LINKS', await page.locator('a').evaluateAll(els=>els.map(el=>({text:el.textContent,href:el.getAttribute('href')}))));
+  await browser.close();
+  await new Promise(resolve=>server.close(resolve));
+})();

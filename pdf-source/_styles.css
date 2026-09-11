@@ -1,0 +1,509 @@
+/* ─── Murshidi PDF Master Stylesheet ─── */
+
+@page {
+  size: A4;
+  margin: 18mm 16mm 18mm 16mm;
+  @bottom-center {
+    content: counter(page) " / " counter(pages);
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 9pt;
+    color: #6B7280;
+  }
+}
+
+@page :first {
+  margin: 0;
+  @bottom-center { content: none; }
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  font-family: 'IBM Plex Sans Arabic', 'Noto Naskh Arabic', 'Segoe UI', sans-serif;
+  font-size: 11pt;
+  line-height: 1.7;
+  color: #1F2937;
+  background: #FFFFFF;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* ─── Color palette ─── */
+:root {
+  --navy: #013070;
+  --navy-dark: #011F4D;
+  --navy-light: #1B4789;
+  --green: #007A4D;
+  --gold: #C8A04C;
+  --red: #CE1126;
+  --ink: #1F2937;
+  --body: #374151;
+  --muted: #6B7280;
+  --line: #E5E7EB;
+  --bg: #F8FAFC;
+}
+
+/* ─── Cover page ─── */
+.cover {
+  page-break-after: always;
+  height: 297mm;
+  width: 210mm;
+  background: linear-gradient(180deg, #013070 0%, #011F4D 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40mm 30mm;
+  position: relative;
+  text-align: center;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #CE1126 0%, #FFFFFF 33%, #007A4D 66%, #000000 100%);
+}
+
+.cover::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #C8A04C 50%, transparent);
+}
+
+.cover-logo {
+  width: 160px;
+  height: 160px;
+  border-radius: 28px;
+  margin-bottom: 28px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.cover-title {
+  font-size: 40pt;
+  font-weight: 700;
+  letter-spacing: -0.5pt;
+  margin-bottom: 8px;
+}
+
+.cover-subtitle {
+  font-size: 16pt;
+  font-weight: 400;
+  opacity: 0.9;
+  margin-bottom: 6px;
+}
+
+.cover-tagline {
+  font-size: 11pt;
+  opacity: 0.7;
+  margin-top: 4px;
+  letter-spacing: 1pt;
+}
+
+.cover-doc-type {
+  margin-top: 60px;
+  padding: 14px 36px;
+  border: 2px solid rgba(200, 160, 76, 0.6);
+  border-radius: 8px;
+  font-size: 14pt;
+  font-weight: 600;
+  letter-spacing: 1pt;
+  text-transform: uppercase;
+  color: #C8A04C;
+}
+
+.cover-footer {
+  position: absolute;
+  bottom: 30mm;
+  left: 0; right: 0;
+  text-align: center;
+  font-size: 9pt;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+.cover-footer .kingdom {
+  font-weight: 600;
+  font-size: 10pt;
+  margin-bottom: 4px;
+}
+
+/* ─── Section headings ─── */
+.section {
+  page-break-inside: avoid;
+  margin-bottom: 24pt;
+}
+
+.section-title {
+  font-size: 18pt;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6pt;
+  padding-bottom: 6pt;
+  border-bottom: 2px solid var(--gold);
+  display: inline-block;
+}
+
+.section-subtitle {
+  font-size: 10pt;
+  color: var(--muted);
+  margin-bottom: 14pt;
+}
+
+h1 { font-size: 22pt; color: var(--navy); margin-bottom: 14pt; font-weight: 700; }
+h2 { font-size: 16pt; color: var(--navy); margin-top: 22pt; margin-bottom: 10pt; font-weight: 700; }
+h3 { font-size: 13pt; color: var(--ink); margin-top: 14pt; margin-bottom: 8pt; font-weight: 700; }
+h4 { font-size: 11pt; color: var(--navy); margin-top: 10pt; margin-bottom: 6pt; font-weight: 600; }
+
+p { margin-bottom: 8pt; }
+
+/* ─── Cards ─── */
+.card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16pt;
+  margin-bottom: 14pt;
+  background: white;
+  page-break-inside: avoid;
+}
+
+.card-accent {
+  border-right: 4px solid var(--navy);
+}
+
+.card-gold {
+  border-right: 4px solid var(--gold);
+}
+
+.card-green {
+  border-right: 4px solid var(--green);
+}
+
+.card-soft {
+  background: var(--bg);
+}
+
+/* ─── Lists ─── */
+ul, ol { margin-right: 24pt; margin-bottom: 10pt; }
+li { margin-bottom: 4pt; }
+
+ul.clean { list-style: none; margin-right: 0; }
+ul.clean li {
+  position: relative;
+  padding-right: 20pt;
+  margin-bottom: 6pt;
+}
+ul.clean li::before {
+  content: '◀';
+  position: absolute;
+  right: 0;
+  top: 2pt;
+  color: var(--gold);
+  font-size: 8pt;
+}
+
+ul.check { list-style: none; margin-right: 0; }
+ul.check li {
+  position: relative;
+  padding-right: 22pt;
+  margin-bottom: 6pt;
+}
+ul.check li::before {
+  content: '✓';
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: var(--green);
+  font-weight: 700;
+}
+
+/* ─── Tables ─── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 14pt;
+  font-size: 10pt;
+  page-break-inside: avoid;
+}
+
+table th {
+  background: var(--navy);
+  color: white;
+  padding: 8pt 10pt;
+  text-align: right;
+  font-weight: 600;
+  font-size: 9.5pt;
+}
+
+table td {
+  padding: 7pt 10pt;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+table tr:nth-child(even) td {
+  background: var(--bg);
+}
+
+/* ─── Stat blocks ─── */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8pt;
+  margin-bottom: 14pt;
+}
+
+.stat {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12pt;
+  text-align: center;
+  background: var(--bg);
+}
+
+.stat-value {
+  font-size: 18pt;
+  font-weight: 700;
+  color: var(--navy);
+  font-variant-numeric: tabular-nums;
+  display: block;
+}
+
+.stat-label {
+  font-size: 8.5pt;
+  color: var(--muted);
+  margin-top: 4pt;
+  display: block;
+}
+
+/* ─── Badges ─── */
+.badge {
+  display: inline-block;
+  padding: 2pt 8pt;
+  border-radius: 4px;
+  font-size: 8.5pt;
+  font-weight: 600;
+  margin-left: 4pt;
+}
+
+.badge-info { background: #EFF6FF; color: var(--navy); border: 1px solid #DBEAFE; }
+.badge-success { background: #ECFDF5; color: var(--green); border: 1px solid #A7F3D0; }
+.badge-gold { background: rgba(200, 160, 76, 0.12); color: #8B6914; border: 1px solid rgba(200, 160, 76, 0.4); }
+
+/* ─── Code & technical ─── */
+code, .mono {
+  font-family: 'Cascadia Mono', 'Consolas', monospace;
+  font-size: 9.5pt;
+  background: var(--bg);
+  padding: 2pt 5pt;
+  border-radius: 3px;
+  color: var(--navy);
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+pre {
+  font-family: 'Cascadia Mono', 'Consolas', monospace;
+  font-size: 9pt;
+  background: #0F172A;
+  color: #E2E8F0;
+  padding: 12pt;
+  border-radius: 6px;
+  overflow-x: auto;
+  line-height: 1.5;
+  margin-bottom: 14pt;
+  direction: ltr;
+  unicode-bidi: embed;
+  page-break-inside: avoid;
+}
+
+/* ─── Quote block ─── */
+.quote {
+  border-right: 3px solid var(--gold);
+  padding: 10pt 14pt;
+  background: var(--bg);
+  font-style: italic;
+  color: var(--body);
+  margin-bottom: 14pt;
+}
+
+/* ─── Meta footer / strip ─── */
+.gov-strip {
+  height: 4px;
+  background: linear-gradient(90deg, #CE1126 0%, #FFFFFF 33%, #007A4D 66%, #000000 100%);
+  margin-bottom: 18pt;
+}
+
+/* ─── Section breaks ─── */
+.page-break { page-break-before: always; }
+.no-break { page-break-inside: avoid; }
+
+/* ─── Two columns ─── */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14pt;
+}
+
+/* ─── Member card (for team) ─── */
+.member {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 22pt;
+  margin-bottom: 18pt;
+  page-break-inside: avoid;
+  position: relative;
+  background: white;
+}
+
+.member-num {
+  position: absolute;
+  top: 18pt;
+  left: 18pt;
+  width: 40pt;
+  height: 40pt;
+  border-radius: 50%;
+  background: var(--navy);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+.member-role {
+  display: inline-block;
+  font-size: 9pt;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  margin-bottom: 4pt;
+}
+
+.member-name {
+  font-size: 17pt;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 8pt;
+}
+
+.member-title {
+  font-size: 12pt;
+  color: var(--ink);
+  margin-bottom: 12pt;
+  font-weight: 500;
+}
+
+.member-section {
+  margin-top: 12pt;
+}
+
+.member-section h5 {
+  font-size: 10pt;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+}
+
+/* ─── Pitch slide ─── */
+.slide {
+  page-break-after: always;
+  page-break-inside: avoid;
+  min-height: 240mm;
+  padding: 14mm 0;
+  position: relative;
+}
+
+.slide:last-child { page-break-after: auto; }
+
+.slide-num {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 9pt;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.slide-tag {
+  font-size: 9pt;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  margin-bottom: 10pt;
+}
+
+.slide-title {
+  font-size: 28pt;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.2;
+  margin-bottom: 18pt;
+}
+
+.slide-subtitle {
+  font-size: 14pt;
+  color: var(--body);
+  margin-bottom: 24pt;
+  line-height: 1.5;
+}
+
+.big-stat {
+  font-size: 56pt;
+  font-weight: 800;
+  color: var(--navy);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.big-stat-label {
+  font-size: 12pt;
+  color: var(--muted);
+  margin-top: 8pt;
+}
+
+/* ─── Logo header for content pages ─── */
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 10pt;
+  margin-bottom: 18pt;
+  padding-bottom: 10pt;
+  border-bottom: 1px solid var(--line);
+}
+
+.page-header img {
+  width: 32pt;
+  height: 32pt;
+  border-radius: 6pt;
+}
+
+.page-header .name {
+  font-size: 12pt;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.page-header .doc {
+  font-size: 8.5pt;
+  color: var(--muted);
+}
+
+/* ─── Print-only footer ─── */
+.footer-meta {
+  margin-top: 28pt;
+  padding-top: 12pt;
+  border-top: 1px solid var(--line);
+  text-align: center;
+  font-size: 8.5pt;
+  color: var(--muted);
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "route": "splash",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "home",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "market",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "chat",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "future",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "stories",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "scholarships",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "alternatives",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "profile",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "personality",
+    "width": 375,
+    "doc": 375,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "splash",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "home",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "market",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "chat",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "future",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "stories",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "scholarships",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "alternatives",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "profile",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "personality",
+    "width": 768,
+    "doc": 768,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "splash",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "home",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "market",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "chat",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "future",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "stories",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "scholarships",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "alternatives",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "profile",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  },
+  {
+    "route": "personality",
+    "width": 1440,
+    "doc": 1440,
+    "lang": "en",
+    "dir": "ltr"
+  }
+]
