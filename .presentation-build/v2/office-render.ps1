@@ -24,7 +24,7 @@ try {
   $deck.Slides.Item($i).SlideShowTransition.AdvanceTime=$timings[$i-1]
  }
  $deck.SaveAs((Join-Path $taskBuild 'draft-embedded.pptx'),24,-1)
- $renderDir=Join-Path $taskBuild 'rendered'
+ $renderDir=Join-Path $taskBuild 'rendered-v9-draft'
  New-Item -ItemType Directory -Force -Path $renderDir | Out-Null
  for($i=1;$i -le $deck.Slides.Count;$i++) {
   $deck.Slides.Item($i).Export((Join-Path $renderDir ('slide-{0:D2}.png' -f $i)),'PNG',1920,1080)
